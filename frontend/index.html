@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI SMS & URL Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI SMS & URL Analyzer</h1>
+
+        <p>
+            Şüpheli SMS mesajlarını ve URL'leri analiz edin.
+        </p>
+
+        <textarea
+            id="messageInput"
+            placeholder="SMS mesajını buraya yazın..."
+        ></textarea>
+
+        <input
+            type="text"
+            id="urlInput"
+            placeholder="Varsa URL'yi buraya yazın..."
+        >
+
+        <button id="analyzeButton">
+            Analiz Et
+        </button>
+
+
+        <!-- Analiz sonucu -->
+        <div class="result-card" id="resultCard">
+
+            <h2>Analiz Sonucu</h2>
+
+            <div class="risk-score">
+
+                <span>Risk Skoru</span>
+
+                <strong id="riskScore">
+                    - / 100
+                </strong>
+
+            </div>
+
+
+            <div class="risk-status" id="riskStatus">
+                Henüz analiz yapılmadı
+            </div>
+
+
+            <div class="risk-factors">
+
+                <h3>Risk Faktörleri</h3>
+
+                <ul id="riskFactors">
+                    <li>Analiz sonucu burada gösterilecek.</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
