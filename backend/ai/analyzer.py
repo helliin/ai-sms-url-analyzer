@@ -111,6 +111,7 @@ def analyze_sms(message: str, external_url: str = "") -> dict:
         "urls": url_results,
         "rule_analysis": rule_result,
         "ml_analysis": ml_result,
+
         "overall_risk_score": overall_risk_score
     }
 
