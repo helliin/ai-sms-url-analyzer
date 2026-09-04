@@ -3,3 +3,4 @@
 __pycache__/
 *.pyc
 data/sms/ExAIS_SMS Spam Dataset/
+data/sms/exais_clean.csv
