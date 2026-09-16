@@ -60,7 +60,7 @@ RISK_PATTERNS = {
 
 def analyze_rules_en(message: str) -> dict:
     """
-    İngilizce SMS'i kural tabanlı olarak analiz eder.
+    Analyzes an English SMS message based on predefined rules.
     """
 
     message_lower = message.lower()

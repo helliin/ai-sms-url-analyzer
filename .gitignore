@@ -1,6 +1,22 @@
 .env
 .venv/
+
 __pycache__/
 *.pyc
+
+# Dataset
 data/sms/ExAIS_SMS Spam Dataset/
 data/sms/exais_clean.csv
+data/enron_spam_data.csv
+data/archive/
+data/spamassassin/
+
+# Large model weights
+models/*/model.safetensors
+
+# Gmail / OAuth secrets
+credentials.json
+token.json
+
+# Local backup files
+*_backup.py

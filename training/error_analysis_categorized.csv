@@ -1,0 +1,683 @@
+text,true_label,svm_prediction,distilbert_prediction,svm_error,distilbert_error,both_wrong,models_disagree,text_length,word_count,has_url,has_phone_or_shortcode,has_money,has_promotion,has_urgency,has_financial,has_subscription,has_reward,has_question,has_exclamation,length_category,error_type
+Life has no second edition to correct it later. It has only one edition which should be the best so be careful while writing every page.,1,0,1,True,False,False,True,136,26,False,False,False,False,False,False,False,False,False,False,Medium,SVM Wrong Only
+Salami Afusat 00XXXXXX33Gtb,0,1,0,True,False,False,True,27,3,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Did you know that employers only spend 6 seconds scanning through CVs? Make the most of it! To receive daily job search tips from SHORTLIST,1,1,1,False,False,False,False,139,25,False,False,False,False,True,False,True,False,True,True,Medium,Both Correct
+The bus comes to Monroeville and u can call me once u get to Monroeville and I will tell u where to get off the bus,0,0,0,False,False,False,False,115,26,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Come.See.Experience..Acquire! Share the fun & gains @ the Convocation Research & Agric. Fair @ 10am 2day. Venue: Ceremonial Building. Don't be told. Be there.,0,0,0,False,False,False,False,158,24,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+On your main balance,1,1,1,False,False,False,False,20,4,False,False,False,False,False,True,False,False,False,False,Very Short,Both Correct
+Morning sir. Ao is the family and work over there? Can u kindly send me Dr. Ezobo's number I want to find out about his structure at isolu.,0,0,0,False,False,False,False,139,28,False,False,False,False,False,False,False,False,True,False,Medium,Both Correct
+B4 pple Begin 2 circul8 pirates,0,0,0,False,False,False,False,31,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Tnks plant t.v,0,0,0,False,False,False,False,14,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Wow! Airtel has given you 5mins FREE Airtel to Airtel credit to call your friends & loved ones this week. Hurry start calling. Call 141 now for mor,0,1,1,True,True,True,False,147,28,False,False,True,True,True,True,False,False,False,True,Medium,Both Wrong
+As u step in2 anoda yr of ur lif,0,0,0,False,False,False,False,32,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Pls am i stil seein u 2dae,0,0,0,False,False,False,False,26,7,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Av been tryin to reach u bt ur no has nt been going. Anyway guess u had a great day,0,0,0,False,False,False,False,83,20,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+You too can WIN§ big in the StarTimes ExtraTime Promo by recharging through QuickTeller. Visit QuickTeller.com/Startimes .4 cars,1,1,1,False,False,False,False,128,18,False,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+"Today is Ogunfeyitimi Keny's birthday. Reply to post on his Timeline or reply 1 to post ""Happy Birthday!"".",1,1,1,False,False,False,False,106,18,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Transfer 080XXXXX76 90 1414,1,1,1,False,False,False,False,27,4,False,True,False,False,False,False,False,False,False,False,Very Short,Both Correct
+08068378310-Hilton hotel,0,0,1,False,True,False,True,24,2,False,True,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+You have used up your Monthly Internet Plan.Browsing now costs 5k per kb.Auto renewal applies at validity.Text help to 229 for more info,0,1,1,True,True,True,False,136,23,False,False,True,False,True,False,False,False,False,False,Medium,Both Wrong
+Really,0,0,0,False,False,False,False,6,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Tell prof or the assistant what u learnt from the orientation too. I am just at my appointment. May not be done until about 3:30,0,0,0,False,False,False,False,128,25,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Dear Customer you recharged 100.00 naira and you have been rewarded with 50.00 naira for national calls,0,1,1,True,True,True,False,103,17,False,False,False,False,False,False,False,True,False,False,Medium,Both Wrong
+Wake-Keep for Dr. OLOKODE  5pm today at Freeman Methodist Church,0,0,0,False,False,False,False,64,10,False,False,False,True,False,False,False,False,False,False,Short,Both Correct
+I'm in church ma.,0,0,0,False,False,False,False,17,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Today is World Health Day. Learn more about how to protect yourself from Vector- borne diseases. Dial *700*5# & follow the prompts. Starts at N10/day,1,1,0,False,True,False,True,149,25,False,True,False,False,False,False,True,False,False,False,Medium,DistilBERT Wrong Only
+You need to come now if u are going to church with us,0,0,0,False,False,False,False,53,13,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+8.13E+14,0,0,1,False,True,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Acct: ******1736Amt: NGN100.00 DrDesc: Airtime Purchase-USSD-101CT0000000000003948463¿USSDAvail Bal: NGN67,0,0,0,False,False,False,False,106,8,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+If you are in need of more creative,1,0,1,True,False,False,True,35,8,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+Chelsea's new signing Christian Atsu will benefit from his season-long loan to Dutch side Vitesse,1,1,1,False,False,False,False,97,15,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+Thanks alot for today. God bless u much,0,0,0,False,False,False,False,39,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Medical: Sudden intense pain on either side of your body may be caused by Kidney stones. Don't panic! Take plenty of water,1,1,1,False,False,False,False,122,22,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+"Today is Olajide Folasade Janet's birthday. Reply to post on her Timeline or reply 1 to post ""Happy Birthday!"".",1,1,1,False,False,False,False,111,19,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Do not love the one who is beautiful for the world but love the one who makes your world beautiful.,1,1,1,False,False,False,False,99,20,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+AlertZAcct:200**001DT:7/25/2014:8:42 PMMC Loc ATM Wdl-70578525    --UNAAB UNAAB MFB DR Amt:3,0,0,0,False,False,False,False,92,10,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+I want a domain.  Www.promaq.com  please help me check the availability so I can send the cash.,0,0,0,False,False,False,False,95,17,True,False,True,False,False,True,False,False,False,False,Medium,Both Correct
+What matters is to live in the present,1,1,1,False,False,False,False,38,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Dear Mr. ONYEKA,0,0,0,False,False,False,False,15,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+01XXXXXX69 david blessing onyero.gtb,0,0,0,False,False,False,False,36,4,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Infomania (noun): The compulsive desire to check or accumulate news & information. Txt VOCAB to 700 to learn more fun words @N50/Wk. Txt STOP to 33111 to OptOut,1,1,1,False,False,False,False,160,28,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Hello team! I will coord. Folake will teach ns-3 supported by Tosin; i teach Matlab rudiments supported by all. Biodun & Princewill will demonstrate data analysis using their project. Pls see later today for briefing. Thx & God is blessing you.,0,0,0,False,False,False,False,244,41,False,False,False,False,False,False,False,False,False,True,Long,Both Correct
+Good day Sir/Ma,0,0,0,False,False,False,False,15,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Happy birthday to you sir. God bless your days and keep you long for us sir. Wale.,0,0,0,False,False,False,False,82,17,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Can we stop by at giant eagle for the connect card on our way home??,0,0,0,False,False,False,False,68,15,False,False,False,False,False,True,False,False,True,False,Short,Both Correct
+Dis is folashade.let's make it 6pm.and pls let's meet at d front of d library cos Ill b waiting 4 u der.i'm sorry.call me wen u get der.God bless,0,0,0,False,False,False,False,145,29,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+PUNCH NEWSTHURSDAY,1,1,1,False,False,False,False,18,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+AlertZAcct:200**001DT:8/8/2014:2:56 PMPOS Intl- GOOGLE *WhatsApp - 49D3ABDR Amt:161.62Br:Head OfficeBal:13,0,0,0,False,False,False,False,106,9,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+30XXXXXX10 Ayandiran Bolanle Khadijat(first bank),0,0,0,False,False,False,False,49,5,False,False,False,False,False,True,False,False,False,False,Short,Both Correct
+Good day senior Friend,0,0,0,False,False,False,False,22,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+help,1,1,1,False,False,False,False,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Ameen. Many thanx.,0,0,0,False,False,False,False,18,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Next time you find yourself in a hopeless situation,1,1,1,False,False,False,False,51,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+We have N200 Airtime for use today,1,1,1,False,False,False,False,34,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+GENERAL,0,0,1,False,True,False,True,7,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Get the Sun Newspaper delivered to your mobile phone everyday! Text SNW to 4900 @N30 weekly.,1,1,1,False,False,False,False,92,16,False,True,False,False,False,False,False,False,False,True,Medium,Both Correct
+It's Elclassico! Get live Updates on your phone as Barcelona takes on Real Madrid in the Copa Del Rey Cup Final. Dial *244#. Service cost N20 daily,1,1,1,False,False,False,False,147,27,False,True,True,False,False,False,True,False,False,True,Medium,Both Correct
+Beloved workers. Trust u had a gr8 week.Dis is 2 in4m u dat d date 4 worker's retreat has bn shifted 2 11-13th Feb,0,0,0,False,False,False,False,114,24,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+WIFI,1,0,1,True,False,False,True,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Reg*357786055638095*,1,1,0,False,True,False,True,20,1,False,True,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Enjoy affordable internet access with 10MB daily Internet plan. Text 104 to 131 to activate for only N100 daily.,1,1,1,False,False,False,False,112,19,False,False,False,False,False,False,True,False,False,False,Medium,Both Correct
+A BLESD EVENIN 2U IN D NAME OF D LORD,0,0,0,False,False,False,False,37,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Medical: Concerned about weight gain in spite of all your efforts to manage your weight? You may have low thyroid hormonal levels. See a doctor for a test.,1,0,1,True,False,False,True,155,28,False,False,False,False,False,False,False,False,True,False,Medium,SVM Wrong Only
+The lord shall supply all your needs according to His riches in glory by Christ Jesus. For more Prayers/Confessions from Rhapsody text  ROR to 5036,1,1,1,False,False,False,False,147,25,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Money received.Car already with the mecho with advice to exercise a little more patience just in case a good buyer may come forward,0,0,0,False,False,False,False,131,23,False,False,True,False,False,False,False,False,False,False,Medium,Both Correct
+Relax. Tell Olamide to flash me when you get home today. I want to talk with all of you OK. Just keep been a Good girl. It's a matter of time. Love u sister,0,0,0,False,False,False,False,156,34,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+P67,0,0,1,False,True,False,True,3,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Change is not a threat its an opportunity. Transform your business today with money shop. Text YES to 5021 to subscribe. N50/wkly.Text STOP to unsubscribe,1,1,1,False,False,False,False,154,25,False,True,True,False,False,False,True,False,False,False,Medium,Both Correct
+Secure your life from viruses & sickness,1,1,1,False,False,False,False,40,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+As the holy month of Ramadan ends,0,0,0,False,False,False,False,33,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Am reli down....i wll xplain tins 2 u beta 2mrw....wil cum c u in d mrn...am reli nt apy....am at a frnds place,0,0,0,False,False,False,False,111,23,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+JOKE. Akpos called the president,1,1,1,False,False,False,False,32,5,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+freshers alive holds today @dewot center by 4pm.pls b reminded dat those who applied 4bursary should com 4 intrview @LFC obantoko by 10am,0,0,0,False,False,False,False,137,23,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Am wishin u a very prosperous new year and welcome to 2 016 the year of uncommon reward,0,0,0,False,False,False,False,87,18,False,False,False,False,False,False,False,True,False,False,Medium,Both Correct
+Sorry about d delay and thanks for participating in planet puzzle on planet TV....this is your airtime. 3911292876318562     3243022258718638.,0,0,0,False,False,False,False,142,19,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Medical: Constipation can make stools hard,1,0,1,True,False,False,True,42,6,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+9.06E+14,0,0,1,False,True,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+One hurts you so that you may find someone who can heal you,1,0,0,True,True,True,False,59,13,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+Join us as we celebrate the union between Esther Falana and Bunmi Oluwalana on 17th May @ RCCG Olorunnisola Atitebi Bankole Str,0,0,0,False,False,False,False,127,22,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+A million and one THANKS is nt enough to appreciate a beautiful Person like u. Txs 4 d luv,0,0,0,False,False,False,False,90,19,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Pls call me,0,0,0,False,False,False,False,11,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+The road to success is always under construction.You could encounter potholes and delays but you must keep your eye on the goal and keep moving.,1,1,1,False,False,False,False,144,25,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Ok. Just want to be sure that's what u want to do. Will be there at about 9:15 or so,0,0,0,False,False,False,False,84,20,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Txn Id R140618.2312.210010 to recharge 90 NGN from 7087214890 is successful. New balance is 90.02 NGN,0,0,0,False,False,False,False,101,16,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+Missing someone you love? Send them Missing You Quotes so that they will know that you miss them. To Enjoy 5 days FREE Alerts on trial,1,1,1,False,False,False,False,134,26,False,False,False,True,True,False,False,False,True,False,Medium,Both Correct
+Stand a chance to Win a trip to Obudu Cattle Ranch and Colouful Calabar Carnival for 6 nights. Text XMAS to 35050 at N100 only!,1,1,1,False,False,False,False,127,25,False,True,False,True,False,False,False,False,False,True,Medium,Both Correct
+Never run out of airtime! Dial *500# to subscribe for automatic credit.,1,1,0,False,True,False,True,71,12,False,True,True,False,False,True,True,False,False,True,Short,DistilBERT Wrong Only
+Mr Solomon - 07XXXXXXX04,0,0,0,False,False,False,False,24,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Www.thisisgarena.com www.kevronconsultingltd.com www.upgrade101online.com  www.bmb.jcifunaab.com use this ones as reference for now,1,1,0,False,True,False,True,131,11,True,False,False,False,True,False,False,False,False,False,Medium,DistilBERT Wrong Only
+Acct: ******1736Amt: NGN100.00 DrDesc: Airtime Purchase-USSD-101CT0000000000005087426¿USSDAvail Bal: NGN107,0,0,0,False,False,False,False,107,8,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Olabisi I had left the place when your message came in,0,0,0,False,False,False,False,54,11,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Helooooo Sir.... I need the stuff nw!!!,0,0,0,False,False,False,False,39,7,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+Evenin sis mi,0,0,0,False,False,False,False,13,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+I didn't say I don't love you all I said was that Am not ready and u should give me sometime since u said I Am not d person u love and u kept saying Am lying Fine you can just go,0,0,0,False,False,False,False,178,42,False,False,False,False,False,False,False,False,False,False,Long,Both Correct
+Gud morning. pls get d address of d hotel /or how i can get taxi to d hotel n text me wit it.,0,0,0,False,False,False,False,93,23,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Acct: ******1736Amt: NGN33,0,0,0,False,False,False,False,26,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+17232759 03/09/14 22:08 Airtime Purchase 7030058860 to 8000000001 NGN 100 Fail17232755 03/09/14 22:08 Airtime Purchase 7030058860 to 8000000001 NGN 100 Fail,1,0,1,True,False,False,True,156,21,False,True,False,False,False,False,False,False,False,False,Medium,SVM Wrong Only
+on ur way or not? it's getting dark,0,0,0,False,False,False,False,35,8,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+G-312106 is your Google verification code.,1,1,1,False,False,False,False,42,6,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Ok you'll see me now try locate ecobank let's meet there,0,0,0,False,False,False,False,56,11,False,False,False,False,True,True,False,False,False,False,Short,Both Correct
+Need airtime? Top up INSTANTLY with our magic code. Dial *919*Amount# to recharge your phone line. To top up for someone,1,1,1,False,False,False,False,120,21,False,False,False,False,False,False,False,False,True,False,Medium,Both Correct
+Www.kevronconsultingltd.com,0,0,0,False,False,False,False,27,1,True,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Its tobi,0,0,0,False,False,False,False,8,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Y'ello! Your data balance is 250.33MB,1,1,1,False,False,False,False,37,6,False,False,False,False,False,True,False,False,False,True,Short,Both Correct
+N100 was transferred to you from the 08068119076 on 19/07/14 07:48 via Share & Sell. Your new account balance is N120.39.,1,1,1,False,False,False,False,121,21,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+May this month deliver unto us all our outstanding victories.(amen). Happy new month brother,0,0,0,False,False,False,False,92,14,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Acct name: A.  ambroseAcct num: 00XXXXXX80 bank: gtb,0,0,0,False,False,False,False,52,8,False,False,False,False,False,True,False,False,False,False,Short,Both Correct
+Txn Id R140704.1451.220105 to recharge 45 NGN from 7087214890 is successful. New balance is 48.24 NGN,0,0,0,False,False,False,False,101,16,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+Your FB notifications for Today!!  1-friend¿request,1,1,1,False,False,False,False,51,6,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+"It is the season to get scriptures inspired by God. Claim 7days free of ""God's Word""",1,1,1,False,False,False,False,84,16,False,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+What Four Letter Word Begins With F And Ends With K,0,1,0,True,False,False,True,51,11,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+SMART,1,1,1,False,False,False,False,5,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Welcome to Year Twenty Sixteen! God is walking with you. Your year shall be full of joy,0,1,1,True,True,True,False,87,17,False,False,False,False,False,False,False,False,False,True,Medium,Both Wrong
+GOOD DAY MA. PLEASE U SHOULD NOT FORGET MY ENVELOP,0,0,0,False,False,False,False,50,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Sorry i went to d mosque dis is jubril mtn no 0813 940 7909,0,0,0,False,False,False,False,59,14,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Name:olayiwola Oluwafolake    Bank - gtb Account No - 00XXXXXX36,0,0,0,False,False,False,False,64,9,False,False,False,False,False,True,False,False,False,False,Short,Both Correct
+You transferred N50 to 08XXXXXX508 on 17/06/14 08:46. Your new account balance is N0. Thanks for using Share & Sell.,1,1,1,False,False,False,False,116,20,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+Acct: ******1736Amt: NGN64.00 DrDesc: SI TRANSACTION (DIFFERENT CUSTOMERS)-SMS CHARGE FOR MAY 2014Avail Bal: NGN106,0,0,0,False,False,False,False,115,14,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+3.33E+11,0,0,1,False,True,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Good morning pls do not forget the lamp o . Thanks God bless,0,0,0,False,False,False,False,60,13,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+oyegunleadedayo@yahoo.com,0,0,0,False,False,False,False,25,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Please call me. Watch Man U vs West Brom on Sat 7 November,1,0,0,True,True,True,False,58,13,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+Did u plan to see or have seen a prof Wosu on your ID?,0,0,0,False,False,False,False,54,14,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+Please call me. I Love you. Watch Chelsea vs West Ham,0,0,0,False,False,False,False,53,11,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+williams Frank 07xxxxxxx344...akplor kingsley 081XXXXXX61,0,0,0,False,False,False,False,57,5,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+9.30E+14,0,0,1,False,True,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Does your number end in 9?TODAY 25/07you're chosen to participate for the 'Nigeria Centenary 100 Million Naira Mega Jackpot'!Send WIN to 35777!N100/SMS,1,1,1,False,False,False,False,151,22,False,True,False,True,False,False,False,False,True,True,Medium,Both Correct
+Dude,0,0,0,False,False,False,False,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Its not the strongest of species that survives,1,0,1,True,False,False,True,46,8,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+Ese o. Shey e ti ka darda sha,0,0,0,False,False,False,False,29,8,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Amen and Amen. Tnx 4 ever bn there,0,0,0,False,False,False,False,34,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Acct: ******2491Amt: NGN200.00 DrDesc: POS-GTBank EBranch UNAAB   Ogun    OGNG STAN9999006519Avail Bal: NGN7,0,0,0,False,False,False,False,108,12,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+Full Crunch: Lie on your back and raise your legs,1,1,1,False,False,False,False,49,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Dr adesina gave us apptmnt for 12pm in his office,0,0,0,False,False,False,False,49,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Get the latest sports news daily ranging from football,1,1,1,False,False,False,False,54,9,False,False,False,False,False,False,True,False,False,False,Short,Both Correct
+When comparing your life with others,1,1,1,False,False,False,False,36,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+PUNCH NEWSSUNDAY,1,1,1,False,False,False,False,16,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Y.ello Peeps!Watch the exciting MTN Project Fame 7.0 Elimination Show on Sat: NTA(5:30-6:30pm),1,1,1,False,False,False,False,94,13,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+A good relation does not depends on how good understanding we have,1,0,1,True,False,False,True,66,12,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+Are u not hungry yet?,0,0,0,False,False,False,False,21,5,False,False,False,False,False,False,False,False,True,False,Very Short,Both Correct
+May d peace of God Almighty b wit,0,0,0,False,False,False,False,33,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Pls bring d cooler....or bring d ewa...pls call me,0,0,0,False,False,False,False,50,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Each moment in a day has  its own value,0,0,1,False,True,False,True,39,9,False,False,False,False,False,False,False,False,False,False,Short,DistilBERT Wrong Only
+No 10 olorunmbe Street wemabod Estate wahum bustop off Adeniyi Jones Ikeja.  Company name Skystar,0,0,0,False,False,False,False,97,15,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Your Acct 3041207489 Has Been Debited with NGN24.00 On 25-JAN-2014 05:21:56 By 27-Dec-2013 to 26-JAN-2014 SMS Alert Cha. Bal: NGN1,0,0,0,False,False,False,False,130,20,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Transfer 08XXXXXX08 200 2580,0,0,0,False,False,False,False,28,4,False,True,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Come to my office afta ur  class.,0,0,0,False,False,False,False,33,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Ayo i make chichi yesterday i call to give u one bottle but u refuse to pick up ur call. thank u. I know we make agreement of not calling each other. I call to give not to disstop.,0,0,0,False,False,False,False,180,39,False,False,False,False,True,False,False,False,False,False,Long,Both Correct
+Watch Man Utd v Real Madrid LIVE on your mobile phone this Saturday using the ManU Club App! Text App to 5836 to download @ N50. Data charges apply. Glo!,1,1,1,False,False,False,False,153,30,False,True,False,False,False,False,False,False,False,True,Medium,Both Correct
+Acct: ******1736Amt: NGN60,0,0,0,False,False,False,False,26,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+You currently have an ACTIVE discount Notification. Dial *135*6# to turn this off.,1,1,1,False,False,False,False,82,13,False,True,False,True,False,False,False,False,False,False,Medium,Both Correct
+Yello! you have used 50% of your BB10 data plan,1,1,1,False,False,False,False,47,10,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+Your Balances are BB Absolute/Complete: 1637MB till 16-Mar.,1,1,1,False,False,False,False,59,8,False,False,False,False,False,True,False,False,False,False,Short,Both Correct
+Colombia V Cote d'Ivoire 5PM,1,0,1,True,False,False,True,28,5,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Hi dear was a morningg,0,0,0,False,False,False,False,22,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+@CNNMoney: .@twitter's customer base is shrinking   https://t.co/flz3ibdZqO/s/1zHt https://t.co/XjJIUdzSAW/s/M_SL,1,1,1,False,False,False,False,113,8,True,False,True,False,False,False,False,False,False,False,Medium,Both Correct
+Hmmm...OK ooooo.extend my gritns 2 Solomon and medo,0,0,0,False,False,False,False,51,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Yes 5th ave. It might take u abt 5mins to walk. You stay on the right side of 5th in d direction of the traffic. She will also call u,0,0,0,False,False,False,False,133,30,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Good morning sir. I'm Azeez Olatunji. CSC 400 level that missed your test when i went to kano. I'm just reminding you sir. Have a nice weekend.,0,0,0,False,False,False,False,143,27,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Name: Abiodun MscTel: 080XXXXX597Name: Abiodun Msc1Tel: 080XXXXXXX41,0,0,0,False,False,False,False,68,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+GREAT NEWS!We celebrate Nigeria's 100 years &we give away the 'Nigeria Centenary 100 Million Naira Mega Jackpot'!Send WIN to 35777 & participate!N100/SMS,1,1,1,False,False,False,False,153,22,False,True,False,True,False,False,False,False,False,True,Medium,Both Correct
+"Skillpolo invited you to Facebook. Learn more: http://fb.com/l/btkEH8MurM56Vm Reply ""stop"" to stop getting Facebook texts",1,1,1,False,False,False,False,121,15,True,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Never run out of Airtime. Dial *500# to subscribe for automatic credit.,1,1,0,False,True,False,True,71,12,False,True,True,False,False,True,True,False,False,False,Short,DistilBERT Wrong Only
+Please call me. 'Scape Goat remix'. by Dbanj & Kanye West is ready for download on MTN Play. Text 2 to 700 to get it for N75. MTN subscribers only,0,1,1,True,True,True,False,146,30,False,False,False,False,False,False,True,False,False,False,Medium,Both Wrong
+Your Acct 3041207489 Has Been Credited with NGN6.64 On 01-JAN-2014 03:57:20 By 3041207489:Int.Pd:01-10-2013 to 31-12-20. Bal: NGN3,0,0,0,False,False,False,False,130,17,False,True,True,False,False,True,False,False,False,False,Medium,Both Correct
+Acct: ******1736Amt: NGN100.00 DrDesc: Airtime Purchase-USSD-101CT0000000000005662856¿USSDAvail Bal: NGN47,0,0,0,False,False,False,False,106,8,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+The password is horpybee and seminar on Ayandiran/bola print out,0,0,0,False,False,False,False,64,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Alright sir,0,0,0,False,False,False,False,11,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+You GET INSTANT Double on ALL YOUR Recharges of N200 and Above to call all networks in 9ja. Bonus Valid for 7 days,0,1,1,True,True,True,False,114,23,False,False,False,True,False,False,False,False,False,False,Medium,Both Wrong
+Your request is now being processed. Please do not send another. We will send you a confirmation once completed. Thank you!,1,0,1,True,False,False,True,123,21,False,False,False,False,True,False,False,False,False,True,Medium,SVM Wrong Only
+Kindnez is a sign of man.D most xclent act iz 2gladen d @ of doz dear 2us.We seek Allah in His infinite mercy 2blez uz wif a kind @...Stay blezd & Jum@ karim!!!,0,0,0,False,False,False,False,160,33,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Wishing u best in ur presentation. Thot i'll be there but feeling somehow,0,0,0,False,False,False,False,73,13,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Acct. No: 00XXXXXX59    acctname: adejimi alaba olusesi,0,0,0,False,False,False,False,55,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Gtbank: 0112557059,0,0,0,False,False,False,False,18,2,False,True,False,False,False,True,False,False,False,False,Very Short,Both Correct
+Please call me VIP Offer: Hot Games!N20/day! Dial *522#,0,1,0,True,False,False,True,55,9,False,True,False,True,False,False,True,False,False,True,Short,SVM Wrong Only
+Your Diamond Online/Mobile user name is tosrasheed.Set up your password within 30 days on the Diamond online log in screen to prevent account deactivation,1,1,1,False,False,False,False,154,24,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+Get 75% bonus plus 5MB data on every recharge to call ANY network in Nigeria. Recharge N1000,1,1,1,False,False,False,False,92,17,False,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+I will i ve not forgoten i know it my obligation i  shall fulfill it. Many thanks,0,0,0,False,False,False,False,81,17,False,False,False,False,True,False,False,False,False,False,Medium,Both Correct
+ke your money work for you. Want to know how Text Money Shop today and stay ahead of the pack. Text YES to 5021 to subscribe. N50/wkly.Text STOP to unsubscribe,1,1,1,False,False,False,False,159,30,False,True,True,False,True,False,True,False,False,False,Medium,Both Correct
+What you get by achieving your goals is not as important as what you become by achieving your goals.How u change will stay with you forever!,1,1,1,False,False,False,False,140,26,False,False,False,False,True,False,False,False,False,True,Medium,Both Correct
+miss you,0,0,0,False,False,False,False,8,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Send to   opakimzokay@gmail.com,0,0,0,False,False,False,False,31,3,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Are U at sango now?,0,0,0,False,False,False,False,19,5,False,False,False,False,True,False,False,False,True,False,Very Short,Both Correct
+Your Acct 304XXXX489 Has Been Debited with NGN100.00 On 23-JUN-2014 17:44:09 By ATM PURCHASE-GTBank EBranch UNAAB/Ogun/O. Bal: NGN1,0,0,0,False,False,False,False,131,18,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+Letin u no dt nobody reigns in my hrt yet but u,0,0,0,False,False,False,False,47,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Welcome! Your INFINIX HOT X507 cannot receive any settings. Please visit our web site,1,1,1,False,False,False,False,85,14,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Dis wk u said,0,0,0,False,False,False,False,13,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Your FB notifications for Today!!  1-friend request,1,1,1,False,False,False,False,51,7,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+Good morning sir. Will be coming with sis kelechi and Rolly.,0,0,0,False,False,False,False,60,11,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+081XXXXX256,0,0,0,False,False,False,False,11,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+AlertZAcct:200**001DT:7/31/2014:11:33 AMPOS Intl- WWW.ALIEXPRESS.COM - 165EDR Amt:375.03Br:Head OfficeBal:71.83REF:335550066,0,0,0,False,False,False,False,124,8,True,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Finkn of a luvly 9te lyk diz wen i wl walk u down wif ur handz in mine 2a beautiful gardern just 2ask ow did ur day went?... Hopn u ar gud? Splndid 9te rest...,0,0,0,False,False,False,False,159,35,False,False,False,False,False,False,False,False,True,False,Medium,Both Correct
+Txn Id R140701.2311.220091 to recharge 45 NGN from 7087214890 is successful. New balance is 45 NGN,0,0,0,False,False,False,False,98,16,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+"Get ""Ari Belema"" as your Callertune. Text 3 to 4100.Tune/service Cost N50 monthly.",1,1,1,False,False,False,False,82,13,False,True,True,False,False,False,False,False,False,False,Medium,Both Correct
+bros today na thursday o,0,0,0,False,False,False,False,24,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+If you reach camp enter oluwokesi if you Don reach there call my number or call 080XXXXXX99,0,0,0,False,False,False,False,91,17,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Pls be informd dt we re contributing 2K each to help Adejimi 4 her recent health challenges.Ds is to be paid tmrw.Thanks,0,0,0,False,False,False,False,120,22,False,False,True,False,False,False,False,False,False,False,Medium,Both Correct
+Its hapnin ds wk. RDEMPTN WK 2014. Theme: The True SeekerWord expositn by Rev Adetuberu by3:30pm Thur Hymnal evenin 6pmFri: Nyt of Power 10pm. Be there.,0,0,0,False,False,False,False,152,26,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Start your week as a champion with prayers From RHAPSODY of Realities for just N50! To enjoy,1,1,1,False,False,False,False,92,17,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+"Today is Akintunde Oluyomi Ariyor's birthday. Reply to post on his Timeline or reply 1 to post ""Happy Birthday!"".",1,1,1,False,False,False,False,113,19,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+ATTN:MEMBERS OF ASUU-UNAAB COOPERATIVE ONLY.Kindly leave out 1pm Wed,0,0,0,False,False,False,False,68,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Yello  welcome to MTN! Please SAVE the setup information that will be sent shortly,1,1,1,False,False,False,False,82,14,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Gmawnin...pls cm 4 Sunday skool...hapi new mth,0,0,0,False,False,False,False,46,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+0130567609 GTBank Oluwole Paul,0,0,0,False,False,False,False,30,4,False,True,False,False,False,True,False,False,False,False,Very Short,Both Correct
+A beautiful quote-If the loser keeps his smile,1,0,1,True,False,False,True,46,8,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+Ma/sir,0,0,0,False,False,False,False,6,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Sometimes apologizing doesnt mean that ure wrong and the other is right. It only means that u value the relationship much more than ur ego!,1,0,0,True,True,True,False,139,25,False,False,False,False,False,False,False,False,False,True,Medium,Both Wrong
+Y'ello! Your data balance is 56.23MB,1,1,1,False,False,False,False,36,6,False,False,False,False,False,True,False,False,False,True,Short,Both Correct
+Your Music+ plan renewal failed due to insufficient balance & entered grace period. Please recharge & Click http://mpjamz.com/?c=9 to enjoy the music expiry,1,1,1,False,False,False,False,156,23,True,False,False,False,False,True,False,False,True,False,Medium,Both Correct
+If i were u,0,0,0,False,False,False,False,11,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+ALL IN ONE  OFFER !Recharge with N1000 & get 1GB Data + FREE N1000 airtime to call ALL Networks. Grab the OFFER NOW.,1,1,1,False,False,False,False,116,23,False,False,False,True,True,False,False,False,False,True,Medium,Both Correct
+Bless God...I will call Rolly very early tomorrow to confirm but I think yes. Will keep you posted. My regards to mummy and Ola.,0,0,0,False,False,False,False,128,24,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Dear BOLAJI,0,0,0,False,False,False,False,11,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Nollywood actress,1,0,1,True,False,False,True,17,2,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+It won't be funny if u keep on telling me that u are not coming and I later see u. If that is what they asked u to do,0,0,0,False,False,False,False,117,29,False,False,False,False,False,False,False,True,False,False,Medium,Both Correct
+My email address is tayoadaraloye@gmail.com,0,0,0,False,False,False,False,43,5,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+I've already paid 4 d stuff and...I'm sorry i CNT leave it,0,0,0,False,False,False,False,58,12,False,False,True,False,False,False,False,False,False,False,Short,Both Correct
+If your number ends in 5 &you received this SMS TODAY 07/07'Centenary World Cup' chose you to participate for N 100,1,1,1,False,False,False,False,115,21,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Fun talks are not the only interesting things that you can have here. Call me now :) +41799771870,1,0,0,True,True,True,False,97,18,False,True,False,False,True,False,False,False,False,False,Medium,Both Wrong
+I priced it somewhere its 6k everywhere I can give him 7 that's what I can offer,0,0,0,False,False,False,False,80,17,False,False,True,True,False,False,False,False,False,False,Short,Both Correct
+Acct: ******7609Amt: NGN20.00 DrDesc: COMMISSION-USSD GTBank Transfer Commission : 07037206811Avail Bal: NGN61,0,0,0,False,False,False,False,110,12,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+Catch the latest gossip,1,0,1,True,False,False,True,23,4,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+You transferred N100 to 0814XXXXX98 on 06/08/14 00:16. Your new account balance is N0. Thanks for using Share & Sell.,1,1,1,False,False,False,False,117,20,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+You Have Already Opted Out of This Campaign,1,0,1,True,False,False,True,43,8,False,False,False,False,False,False,True,False,False,False,Short,SVM Wrong Only
+D Lord is d effort crowner,0,1,0,True,False,False,True,26,6,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+8065941082,0,0,0,False,False,False,False,10,1,False,True,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Good evening ma,0,0,0,False,False,False,False,15,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+2 Clubs,1,0,1,True,False,False,True,7,2,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Bakare sulaimon gbolahan  0907it00804,0,0,0,False,False,False,False,37,4,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Get N200 Airtime when you Call 14120 today. Hurry,1,0,0,True,True,True,False,49,9,False,True,False,False,True,False,False,False,False,False,Short,Both Wrong
+Paul4all247@yahoo.com,0,0,0,False,False,False,False,21,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Hi love,0,0,0,False,False,False,False,7,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Morning Paul need a favour pls,0,0,0,False,False,False,False,30,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+New vacancies at Standard Chartered Bank,1,0,1,True,False,False,True,40,6,False,False,False,False,False,True,False,False,False,False,Short,SVM Wrong Only
+Plan,1,0,1,True,False,False,True,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+081XXXXXX17 called you on 03/09/2014 at 7:57 .Recharge N200 to get N500 worth of Airtime & 5MB data weekly on Easy Starter.,1,1,1,False,False,False,False,123,22,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+6.02E+11,0,0,1,False,True,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Download and dance to the videos of Aye,0,0,1,False,True,False,True,39,8,False,False,False,False,False,False,False,False,False,False,Short,DistilBERT Wrong Only
+43956426649,0,0,0,False,False,False,False,11,1,False,True,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Wishing u not just a smile but laught,0,0,0,False,False,False,False,37,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Evening sir...I know u will church now. I took 71b as directed by the port authority app on my phone to church. But found myself at around highland pack. The bus driver said it should have been 71A or 7C but am on my way back. Not sure if I will still be able to make it to church.,0,0,0,False,False,False,False,281,59,False,False,False,False,True,False,False,False,False,False,Long,Both Correct
+Airtel club 10: User361181 : unesco has said that India and Nigeria accounted for one third of child deaths worldwide,1,1,1,False,False,False,False,117,20,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+Y'ello! Your data balance is 82.83MB,1,1,1,False,False,False,False,36,6,False,False,False,False,False,True,False,False,False,True,Short,Both Correct
+The goal of the CV is to get you an interview. Keep it targeted/enticing!For more tips from Phillips Consulting,1,1,1,False,False,False,False,111,19,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+You can be the Lucky Winner of the Centenary Mega Jackpot of 100M Naira! To Celebrate Nigeria @ 100! Text 100 to 35777 NOW. Daily prizes still up for grabs.,1,1,1,False,False,False,False,156,30,False,True,False,True,True,False,True,True,False,True,Medium,Both Correct
+Good evening bros.. I don't know if you can please mail me Skystar profile.  Oluwolepaul@gmail.com  thanks,0,0,0,False,False,False,False,106,16,False,False,False,False,True,False,False,False,False,False,Medium,Both Correct
+May God shine his face on us as we commence the second half of 2014,0,0,0,False,False,False,False,67,15,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Your Padi4Life benefit of half a million naira is renewed. You have paid (0) Days this week. Fees N20/day. To opt-out text STOP to 45433.,1,1,1,False,False,False,False,137,25,False,True,True,False,False,False,True,False,False,False,Medium,Both Correct
+00XXXXXX4 obeka adakole christian gtbank,0,0,0,False,False,False,False,40,5,False,False,False,False,False,True,False,False,False,False,Short,Both Correct
+Gud afternoon I just wanted to ask when  are we going to get the balance of our wages,0,0,0,False,False,False,False,85,18,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+4.32E+11,0,0,1,False,True,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Spectacular WC football moments in history at its best as we count down to the finals of this year's tournament! Reply WC @N50/Wk. Txt STOP to 33111 to OptOut,1,1,1,False,False,False,False,158,29,False,True,False,False,False,False,False,False,False,True,Medium,Both Correct
+Tanks. Wish u all da v.best too,0,0,0,False,False,False,False,31,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+FOLAKE DEAR,0,0,0,False,False,False,False,11,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Fear less,1,1,1,False,False,False,False,9,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Monitor updates on traffic,0,1,1,True,True,True,False,26,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+Good morning dear... I couldn't come bcos of d rain dat fell yesterday evening.. I'll see u after class 2mrw.. Thanks for helping me out.. See u soon,0,0,0,False,False,False,False,149,28,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+MONTHLY,1,1,1,False,False,False,False,7,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+OFFICIAL NIGERIA CENTENARY PROMO! N100m cash + 1CAR Daily & 563 OTHER WINNERS EVERYDAY!Enter NOW! Send WIN to 35777. SMS   N100. Live Draw on NTA   8pm daily.,1,1,1,False,False,False,False,158,27,False,True,True,True,True,True,True,True,False,True,Medium,Both Correct
+A leader is not a person who can perform better than his people- but someone who can inspire his people to perform better than himself.,1,1,1,False,False,False,False,135,25,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+There is one way to reach the hearts of people and that is first by reaching our own depth.,1,1,1,False,False,False,False,91,19,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Congratulations! Kanu has sellected your number to get a free subscription for a week to his service! Send KANU to 38255 & increase your possibilities to more!,1,1,1,False,False,False,False,159,27,False,True,False,True,False,False,True,True,False,True,Medium,Both Correct
+Do you know you can get N1,0,0,0,False,False,False,False,26,7,False,False,False,False,True,False,False,False,False,False,Very Short,Both Correct
+Text to 229: 'SMART' for smartphone plans; 'MONTHLY' for monthly plans; 'MOBILE' for daily & weekly plans; 'fb' for facebook plans; 'OM' for Opera Mini plans,1,1,1,False,False,False,False,157,26,False,False,False,False,False,False,True,False,False,False,Medium,Both Correct
+Yello! Do you know with N2015,1,1,1,False,False,False,False,29,6,False,False,False,False,True,False,False,False,False,True,Very Short,Both Correct
+Will soon be leaving now...which bus stop is closest to church,0,0,0,False,False,False,False,62,11,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+1.Ivory Coast's Gbagbo to be tried at Hague for election violence 2.Iran deploys forces to fight insurgents in Iraq as U.S rule out putting troops back on the ground,1,0,1,True,False,False,True,165,29,False,False,False,False,True,False,False,False,False,False,Long,SVM Wrong Only
+AIRTEL CLUB 10: User3061696 :  GODISABLE 2protect u & guard u 4rm ur enemies.believe in jesus and he will deliver you,1,1,1,False,False,False,False,117,21,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Your Acct 304XXXX489 Has Been Debited with NGN1,0,0,0,False,False,False,False,47,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+First Bank Panseke Branch is giving Naira Credit Card and Personal Loan Against Salary between 12 and 48 months.Call Francis 08062454742 OR Jumoke 08062124053.,0,0,1,False,True,False,True,159,24,False,True,True,False,False,True,False,False,False,False,Medium,DistilBERT Wrong Only
+Acct Number-3065456289,0,0,0,False,False,False,False,22,2,False,True,False,False,False,False,False,False,False,False,Very Short,Both Correct
+You mean a lot to me Angel. I can't hide my feeling for loving u.,0,0,0,False,False,False,False,65,15,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Oni Oluwatoyin Florence...01XXXXXX3. Happy new month.,0,0,0,False,False,False,False,53,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Hello Fola have tried ur nba but it's not responding. Happy new month.,0,0,0,False,False,False,False,70,13,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Come to the Bishopcourt in parakin. I suppose,0,0,0,False,False,False,False,45,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Dr. Oluwatope has directd dt it is compulsory 4evrybody 2com and demonstrat d project in his office on DE-2 Board unfailingly 12PM Thur 03-07-14 for grading.,0,0,0,False,False,False,False,157,26,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Dear Glo subscriber,1,1,0,False,True,False,True,19,3,False,False,False,False,False,False,True,False,False,False,Very Short,DistilBERT Wrong Only
+Marouane Fellaini will bring something different to Manchester United this season,1,1,1,False,False,False,False,81,11,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+God and Man shall favour you before the end of this year.If you believe and For more prayers.Text AMEN,1,1,0,False,True,False,True,102,19,False,False,False,False,False,False,False,False,False,False,Medium,DistilBERT Wrong Only
+I am in the Pg Seminar Room,0,0,0,False,False,False,False,27,7,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Recharge Now to get 50% extra airtime when you recharge upto N100 this week(Mon to Sun). Bonus for calls to Airtel Nos.,0,0,0,False,False,False,False,119,22,False,False,False,True,True,False,False,False,False,False,Medium,Both Correct
+As we celebrate d birth of our lord jesus christ,0,0,0,False,False,False,False,48,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+For tips on how to enhance your prayer life,1,1,1,False,False,False,False,43,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Y'ello,1,1,1,False,False,False,False,6,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Acct: ******7609Amt: NGN1,0,0,0,False,False,False,False,25,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+You better live ur best and act ur best and think ur best today,1,0,0,True,True,True,False,63,14,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+FUN/HOS/FIN/20132014/1/47890,0,0,1,False,True,False,True,28,1,False,True,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+CONGRATS ! Your 200% BONUS account credited with N75.00 valid till 22/02/2016.To check bonus dial #122*2#.,1,1,1,False,False,False,False,106,16,False,True,True,True,False,True,False,True,False,True,Medium,Both Correct
+WhatsApp code 574-309,0,1,1,True,True,True,False,21,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+Gud morng,0,0,0,False,False,False,False,9,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Request processing.Please await confirmationvia SMS or dial *228# for data balance.Chat with Whatsapp,1,1,0,False,True,False,True,101,13,False,True,False,False,False,True,False,False,False,False,Medium,DistilBERT Wrong Only
+Here is my no 07XXXXXX808,0,0,0,False,False,False,False,25,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+EPL Week 2  Get Manchester Utd news & goal alerts as it happens.Text MU to 38400 & get 5Days free.Service will auto-renew   N50/5days.,1,1,1,False,False,False,False,134,23,False,True,False,True,False,False,False,False,False,False,Medium,Both Correct
+Your Acct 304XXXX489 Has Been Debited with NGN3,0,0,0,False,False,False,False,47,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Dear FUNAABites,0,0,0,False,False,False,False,15,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+"Extension of subscription! 7 Health Wellness tips will be yours at a cost of N100! Bonus tip: ""Scrabble game stimulates the mind"". For details text INFO to 7804",1,1,1,False,False,False,False,160,28,False,True,True,True,False,False,True,False,False,True,Medium,Both Correct
+fine ma,0,0,0,False,False,False,False,7,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+"Today is Seyi Odusanya's birthday. Reply to post on his Timeline or reply 1 to post ""Happy Birthday!"".",1,1,1,False,False,False,False,102,18,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Enjoy 1 month Free Life & Accident insurance cover worth N100,1,1,1,False,False,False,False,61,11,False,False,False,True,False,False,False,False,False,False,Short,Both Correct
+Y'ello! Text STATE OF ORIGIN LGA. Choose .,1,1,1,False,False,False,False,42,8,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+dear all i wish to appreciate everyone that participated in the successful conduction of csc 211 test yesterday thanks.  kindly collect csc 211 scripts for further processing thanks. Dr arogundade,0,0,0,False,False,False,False,196,30,False,False,False,False,False,False,False,False,False,False,Long,Both Correct
+Jesus where did he faint even me am scared now,0,0,0,False,False,False,False,46,10,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+Get your callers dancing to 1 Free Ring Back Tune for 30days. Text 2 to 251 for Aye by Davido or text 17 to 251 for Gallardo by Runtown ft Davido. Hurry Now!,1,1,1,False,False,False,False,157,33,False,False,False,True,True,False,False,False,False,True,Medium,Both Correct
+E se jare ore mi. Ehn,0,0,0,False,False,False,False,21,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Pls be informed dt PT defense comes up on Wed.,0,0,0,False,False,False,False,46,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Morning Mrs ogunsha,0,0,0,False,False,False,False,19,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Yello! Subscribe and listen to Daily sermons from Bishop Benson Oritsejolomisan on MTN Subscription Devotional Service ¿ N100 per momth. Dial 450118(TOLLFREE),1,1,1,False,False,False,False,158,22,False,True,False,True,False,False,True,False,False,True,Medium,Both Correct
+When things dont go right,1,0,0,True,True,True,False,25,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+Experience convenience! Use GTBank 1-Click Airtime topup from your GTBank account from your registered phone number. Simply dial *737*AMOUNT# e.g. *737*1000#,0,0,0,False,False,False,False,157,21,False,True,False,False,False,True,False,False,False,True,Medium,Both Correct
+As a single footstep will not make a path on the earth,1,0,1,True,False,False,True,54,12,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+Many thanks,0,0,0,False,False,False,False,11,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+081XXXXX63- Ola Diamond,0,0,0,False,False,False,False,23,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Please send me credit. Get 100% bonus when you recharge with *885*RechargePin# on SmoothTalk and Trutalk. Bonus expires daily @ 11:59pm.,0,0,0,False,False,False,False,136,21,False,False,True,True,True,True,True,False,False,False,Medium,Both Correct
+Get Aye by Davido FREE for 30 days. To get this tune,1,1,1,False,False,False,False,52,12,False,False,False,True,False,False,False,False,False,False,Short,Both Correct
+Twin sister,0,0,0,False,False,False,False,11,2,False,False,False,True,False,False,False,False,False,False,Very Short,Both Correct
+Okay,0,0,0,False,False,False,False,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+My Oga..missed ur call in the morning was in church. am going to the US tomorrow. Just wanted to say Hi. Eku ipalemo conference. My regards to Aunty and ibeji's,0,0,0,False,False,False,False,160,30,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+How Nigerian are you? Prove it! Answer 3 Questions correctly & be rewarded with DSTV Walka7s & more. Text GOL to 5030 T&Cs apply and stop to unsubcribe,1,1,1,False,False,False,False,151,28,False,True,False,False,False,False,False,True,True,True,Medium,Both Correct
+Can't talk now. Call me later please!,0,0,0,False,False,False,False,37,7,False,False,False,False,True,False,False,False,False,True,Short,Both Correct
+Mr paul gud mornin,0,0,0,False,False,False,False,18,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Network Is Bad So I Cant Chat For Now.,0,0,0,False,False,False,False,38,9,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+Get Daily News Alert Delivered to Your Mobile Phone.Text News to 35241.Cost N100 /30days,1,1,1,False,False,False,False,88,14,False,True,True,False,False,False,True,False,False,False,Medium,Both Correct
+Dear Customer you recharged 1000.00 naira and you have been rewarded with 1000.00 naira for national calls.For recharging this week,0,1,1,True,True,True,False,131,20,False,True,False,False,False,False,False,True,False,False,Medium,Both Wrong
+Name: My New gtb NoTel: 00XXXXXX36,0,0,0,False,False,False,False,34,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+scratching ears shows lack of confidence,1,0,1,True,False,False,True,40,6,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+Support 9ija at the WorldCup,1,0,1,True,False,False,True,28,5,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Taking a walk can prove very beneficial during stressful times at work or after having had a heated debate,1,0,1,True,False,False,True,106,19,False,False,False,False,False,False,False,False,False,False,Medium,SVM Wrong Only
+Hope you're enjoying SMS Chat. Your subscription will be renewed in 24 hrs @ N50/wk,1,1,1,False,False,False,False,83,15,False,False,False,False,False,False,True,False,False,False,Medium,Both Correct
+Goodmorning Mum pls I need your assistance want to complete d fees of my house rent paid 20 earlier remaining 10.. Mum pls help in any lil way you can d landlord given me a deadline of this week. Pls mum.,0,0,0,False,False,False,False,204,41,False,False,True,False,False,False,False,False,False,False,Long,Both Correct
+Y'ello! You have received 125MB extra data in the MTN Data Delight offer,1,1,1,False,False,False,False,72,13,False,False,False,True,False,False,False,False,False,True,Short,Both Correct
+Acct: ******1736Amt: NGN200.00 DrDesc: Airtime Purchase-USSD-101CT0000000000004838387¿USSDAvail Bal: NGN118,0,0,0,False,False,False,False,107,8,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+200.00NGN has been credited. Main Bal:N 202.67. Enjoy 9K/s on Bounce2Bounce,1,1,1,False,False,False,False,75,11,False,False,True,False,False,True,False,False,False,False,Short,Both Correct
+A race horse that consistently runs just 1 sec faster than the others is worth millions of dollars more.Never compromise on second position.,1,1,1,False,False,False,False,140,23,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+80XXXXXXX47,0,0,0,False,False,False,False,11,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Winners campus fellowship holds this wednesday at dewot event center by 4pm .pls come with a friend and worship with us and u will be richly blessed.,0,0,0,False,False,False,False,149,27,False,False,False,True,False,False,False,True,False,False,Medium,Both Correct
+Your N250 Get N750  bundle balance is 488.40 Naira. Bundle expires on 08/12/2015 08:15 AM.,1,1,1,False,False,False,False,90,15,False,True,False,False,True,True,False,False,False,False,Medium,Both Correct
+Please call me. Enjoy NON-STOP chatting on WhatsApp,1,0,0,True,True,True,False,51,8,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+Y'ello! Get FREE 200% airtime to call MTN2MTN when you recharge upto N750.Hurry & recharge before 11:59pm 9th April,1,1,1,False,False,False,False,115,19,False,False,False,True,True,False,False,False,False,True,Medium,Both Correct
+Morning. Am on it. Thks,0,0,0,False,False,False,False,23,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Seen before 4 I'll send it I'll call you when I do,0,0,0,False,False,False,False,50,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+The remarkable thing about fearing God is that when you fear God you fear nothing else,1,1,1,False,False,False,False,86,16,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+8262 2126 4511 5873,0,0,0,False,False,False,False,19,4,False,True,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Your Balances are BB Absolute/Complete: 1637MB till 16-Mar. BB Plan: 29MB till 24-Feb. BB Plan: 10MB till 24-Feb.,1,1,1,False,False,False,False,113,18,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+Thank you Sir. Uncle Kelly said u were coming yesterday and gave me some cheques for u. So I was expecting you.,0,0,0,False,False,False,False,111,22,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+To login goto www.brightaviationng.com/cpanel   username:brightav  password:Sg563Bf2vh,0,0,0,False,False,False,False,86,6,True,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Have you registered for your FREE life insurance and hospital cash today? Simply dial *259# to register. Recharge up to N5000 monthly to qualify.,0,1,1,True,True,True,False,145,24,False,True,True,True,False,True,False,False,True,False,Medium,Both Wrong
+Fulfilling the ambition could mean taking the risk. Be brave as fortune favours the brave. Just stand up and take action.,1,0,1,True,False,False,True,121,21,False,False,False,False,False,False,False,False,False,False,Medium,SVM Wrong Only
+What is in the vicinity of our minds r the negative situations surrounding us,1,1,0,False,True,False,True,77,14,False,False,False,False,False,False,False,False,False,False,Short,DistilBERT Wrong Only
+you are right brother... how is all am on my from lokoja ..i call when i get home,0,0,0,False,False,False,False,81,18,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Hellow sir,0,0,0,False,False,False,False,10,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Happiness is when what you think,1,1,1,False,False,False,False,32,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Name: Erioluwa MscTel: 080XXXXXX25Name: Erioluwa Msc1Tel: 070XXXXXX14,0,0,0,False,False,False,False,69,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+.Enjoy 100%extra data between 1AM &5AM for 7days.Text ON to 229 @N100.,0,1,1,True,True,True,False,70,12,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+M at under bridge,0,0,0,False,False,False,False,17,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Please call me. Watch Man City vs Norwich,1,0,0,True,True,True,False,41,8,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+Dpompin09@yahoo.co.uk,0,1,1,True,True,True,False,21,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+"Lola newton, this is it +2346XXXXXXX54 tony",0,0,0,False,False,False,False,43,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+1.Egypt criminalises sexual harassment 2.Hillary Clinton explores possibility of a 2016 run for U.S president 3.Search for missing flight MH370 to be privatized,1,1,1,False,False,False,False,160,23,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Thanks for ur advice and thanks always be there for me.Am so grateful sir.,0,0,0,False,False,False,False,74,14,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+From tobi blessing's frd,0,0,0,False,False,False,False,24,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Eventually,0,0,1,False,True,False,True,10,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Get live action and match highlights from Brazil,0,1,1,True,True,True,False,48,8,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+How are u moving today? if u are going to Pit,0,0,0,False,False,False,False,45,11,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+Don't worry pls find out for me,0,0,0,False,False,False,False,31,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Strength does not come from winning.Your struggles develop your strengths.When you go through hardships and decide not to surrender that is strength.,1,0,1,True,False,False,True,149,22,False,False,False,True,False,False,False,False,False,False,Medium,SVM Wrong Only
+?~Tip For Lifetime~  Try to pretend that,0,0,0,False,False,False,False,40,7,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+Welcome to 10MB 1-Day Mobile Data plan,1,1,1,False,False,False,False,38,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Pls pay 14,0,0,1,False,True,False,True,10,3,False,False,True,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Eecli 4 verse 9-6,0,0,0,False,False,False,False,17,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+AlertZAcct:200**001DT:7/31/2014:12:00 AMMC Int Web Prch-000000008702--WWW.ADR Amt:287.54Br:Sango OtaBal:19,0,0,0,False,False,False,False,106,7,True,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+BRING UR FLASH TO SCHOOL TOMOROW. DR ODULATE,0,0,0,False,False,False,False,44,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+One of the best ways to educate heart is to look at interaction,1,1,1,False,False,False,False,63,13,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Download without any limits! Games,1,1,1,False,False,False,False,34,5,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+Amen thanks. Hope ull come around?,0,0,0,False,False,False,False,34,6,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+Oluikpe4real@yahoo.com,0,0,0,False,False,False,False,22,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Your Google verification code is 512943,1,1,1,False,False,False,False,39,6,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Stand out to grasp the second half of the year.Joy unequalled never ending is your portion.Welcome to June.Ps.30:5,0,1,1,True,True,True,False,114,18,False,False,False,False,False,False,False,False,False,False,Medium,Both Wrong
+Get latest football news from SuperSport. Text SSW to 4900 for 7 days free,1,1,1,False,False,False,False,74,14,False,True,False,True,False,False,False,False,False,False,Short,Both Correct
+Pls 4 d sake of Allah,0,0,0,False,False,False,False,21,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Yello.. Subscribe and listen to Daily sermons from Bishop Benson Oritsejolomisan on MTN Subscription Devotional Service ¿ N100 per month. Dial 450118(TOLLFREE),1,1,1,False,False,False,False,159,22,False,True,False,True,False,False,True,False,False,False,Medium,Both Correct
+It was deliberate... I don't use it much in the lab. I use the PC there. One because internet access is on it. And secondly my PC usually hangs when I run MATLAB on it cos of the large volume of data. And that is the main tool I work in the lab,0,0,0,False,False,False,False,244,53,False,False,False,False,False,False,False,False,False,False,Long,Both Correct
+Acct: ******1736Amt: NGN37,0,0,0,False,False,False,False,26,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+D typ of ur previous laptop dey. 40k hoc,0,0,0,False,False,False,False,40,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Ahhhhhhh,0,0,0,False,False,False,False,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Free Free!!! Get the latest gossips & hot news in the world of Hollywood stars on your mobile!! SMS HNP to 38567 for 7 days FREE trial!!Hurry limited offer!!,1,1,1,False,False,False,False,157,29,False,True,False,True,True,False,False,False,False,True,Medium,Both Correct
+Eopeyemi@alientechltd.us password:opeyemi2015,0,0,0,False,False,False,False,45,2,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Name: Dr Ogini OsogboTel: 08XXXXXXX24,0,0,0,False,False,False,False,37,5,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Y'ello! Get to know more about Nigeria's history this Democracy Day. Simply text NHISTORY to 700 for Nigeria History. Service costs N50 weekly,1,1,1,False,False,False,False,142,23,False,False,True,False,True,False,False,False,False,True,Medium,Both Correct
+TUNDE NO FOR NOW +234 81XXXXXXX87,0,0,0,False,False,False,False,33,6,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+070XXXXXXX90 has been honoured with the chance to receive today's Great Quotes & a surprise FREE gift! Congrats! To get it,1,1,1,False,False,False,False,122,21,False,False,False,True,False,False,False,True,False,True,Medium,Both Correct
+A praya 2bless ur way,0,0,0,False,False,False,False,21,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Acct: ******1736Amt: NGN100.00 DrDesc: Airtime Purchase-USSD-101CT0000000000003738006¿USSDAvail Bal: NGN95,0,0,0,False,False,False,False,106,8,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Tp12/13/h/1183,0,0,1,False,True,False,True,14,1,False,True,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Does your number end in 2?TODAY 27/07you're chosen to participate for the 'Nigeria Centenary 100 Million Naira Mega Jackpot'!Send WIN to 35777!N100/SMS,1,1,1,False,False,False,False,151,22,False,True,False,True,False,False,False,False,True,True,Medium,Both Correct
+Pls attend the Inaugural Lecture of Prof Olusegun Olukayode Odukoya on Wed Feb 19,0,0,0,False,False,False,False,81,14,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Direct to ur phone the popular OUR DAILY BREAD devotional!Strengthen ur walk with God and get deeper in the WORD. Subscribe now.sms ODB to 38299.Cost:N50 7days,1,1,1,False,False,False,False,159,26,False,True,True,False,True,False,True,False,False,True,Medium,Both Correct
+Thanks for your support. God bless.,0,0,0,False,False,False,False,35,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Happy birthday bro,0,0,0,False,False,False,False,18,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Season Of Love. Spice Up Every Call this Christmas. For We wish u a Merry Xmas,1,1,0,False,True,False,True,78,16,False,False,False,False,False,False,False,False,False,False,Short,DistilBERT Wrong Only
+Dia has always bin alot of anger in me &loneliness weneva i tink of aw i was maltreated but ur care & guidance 2wards me change my feelings dat dia is stil u whose style of relationship is worth emulating. Thanks 4 being  there,0,0,0,False,False,False,False,227,44,False,False,False,False,False,False,False,False,False,False,Long,Both Correct
+Here is my no 07XXXXXX805,0,0,0,False,False,False,False,25,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Trst 2day wnt well,0,0,0,False,False,False,False,18,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Everyone has a voice deep inside; a voice that says,1,0,1,True,False,False,True,51,10,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+The most important things in life have been accomplished by people who kept on trying when there seemed to be no hope at all. Never give up!,1,1,1,False,False,False,False,140,27,False,False,False,False,True,False,False,False,False,True,Medium,Both Correct
+Sorry didn't hear u d oda tym..call me wen u done. Tkia,0,0,0,False,False,False,False,55,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Blvd,0,0,0,False,False,False,False,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Gud afternoon ma,0,0,0,False,False,False,False,16,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+M almost done where I am be on my way soon,0,0,0,False,False,False,False,42,11,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+I to be ur friend,0,0,0,False,False,False,False,17,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+It's OK.  I understand,0,0,0,False,False,False,False,22,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Its just meaningless to expect your partner to be of your kind because you cannot hold their right hand in your right to walk together.,1,1,1,False,False,False,False,135,25,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Transfered 50k to your ECOBANK Account earlier today. It is part of the tithe from the sponsorship i was given 4my trip. God bless you & keep us in your prayers,0,1,0,True,False,False,True,160,31,False,False,False,False,False,True,False,False,False,False,Medium,SVM Wrong Only
+Our thoughts create our atmosphere. People who are soaked in the world have occasional noble thoughts.,1,1,1,False,False,False,False,102,16,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Recharge with N1000 this week(Mon to Sun) & get 50% extra airtime to call Airtel lines; Bonus is for 3days. For bonus bal,0,0,0,False,False,False,False,121,23,False,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+access>>>MonthEnd BalName:ONYEKA ESENWAAcctNo:0060948144Balance:NGN4,1,1,0,False,True,False,True,68,3,False,False,False,False,False,True,False,False,False,False,Short,DistilBERT Wrong Only
+Welcome to BRAIN-WAVE easy Trivia.Answer three questions only and get instant MTN Airtime. To get started now N10/SMSText WAVE to 5032,1,1,1,False,False,False,False,134,21,False,True,False,False,True,False,False,False,False,False,Medium,Both Correct
+JOKE. Wife: If i knew u were this poor I wouldnt hav married u! Akpos: what do u think I meant when I said u were d only thing I have in this world?,1,0,1,True,False,False,True,148,34,False,False,False,False,False,False,False,False,True,True,Medium,SVM Wrong Only
+Sp116username pw david pls is henry code don't wnt hm to knw,0,0,0,False,False,False,False,60,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Gud p.m. Oluwafolakemi. How's ur work today? Have a wonderful restful night. God bless u,0,0,0,False,False,False,False,88,15,False,False,False,False,False,False,False,True,True,False,Medium,Both Correct
+Free for 1 week,1,1,1,False,False,False,False,15,4,False,False,False,True,False,False,False,False,False,False,Very Short,Both Correct
+Ju,0,0,0,False,False,False,False,2,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Dial *678# to subscribe to Airtel Mobile Newspaper alerts at N120 monthly . Stay up-to-date with breaking news,0,1,1,True,True,True,False,110,18,False,True,False,False,False,False,True,False,False,False,Medium,Both Wrong
+Our past is a series of lessons that advance us to higher levels of living and loving. The relationships we entered or ended taught us necessary lessons,1,1,1,False,False,False,False,152,27,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+winners campus fellowship holds today  by 4pm @ dewort,0,0,0,False,False,False,False,54,9,False,False,False,True,False,False,False,True,False,False,Short,Both Correct
+Bible reference for fight of faith now pls,0,0,0,False,False,False,False,42,8,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+Welcome to 100MB Mobile Data plan,1,1,1,False,False,False,False,33,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Believe in the rewards that await u,1,0,1,True,False,False,True,35,7,False,False,False,False,False,False,False,True,False,False,Short,SVM Wrong Only
+U can call me now pls...ad 2 pick mum's call.I'm sorry,0,0,0,False,False,False,False,54,11,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+"Y'ello ! Mr 2Kay is back with a BANG. Enjoy his latest hit song ""Moniegram ft Timaya""as your caller tune",1,1,1,False,False,False,False,104,20,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+On my way to Ogba from Maryland ...can we see briefly? Be there in like 30mins,0,0,0,False,False,False,False,78,16,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+THE SEMI-FINALS ARE HERE! Get LIVE game updates & summary of Brazil's match today against Germany! Text SOCCER to 33118 @N50/Wk. Text STOP to 33111 to OptOut,1,1,1,False,False,False,False,157,27,False,True,False,False,False,False,False,False,False,True,Medium,Both Correct
+id:1570583615 sub:001 dlvrd:001 submit date:1511180008 done date:1511180008 stat:DELIVRD err:000 text:,0,0,0,False,False,False,False,102,10,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Fire can be silent with water,0,0,1,False,True,False,True,29,6,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Last call was 51 sec at N0.00.Main Bal: N21.00.Bumpa Bal: N309.50. ALL IN 1 OFFER! Just recharge N500 and get 500MB Data plus N500 to call ALL,1,1,1,False,False,False,False,142,27,False,False,False,True,False,False,False,False,False,True,Medium,Both Correct
+Failure is not when you dont reach your GOALS. It is when you dont have any goals to reach.,1,1,1,False,False,False,False,91,19,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Mammy said she called U .Have U slept?,0,0,0,False,False,False,False,38,8,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+Do not brood over your past mistakes and failures as this will only fill your mind with grief and regret. Just never repeat them in the future.,1,1,1,False,False,False,False,143,27,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+3XXXXXXX10 Ayandiran Bolanle k first bank,0,0,0,False,False,False,False,41,6,False,False,False,False,False,True,False,False,False,False,Short,Both Correct
+D birth of JESUS brngz JOY~GRACE~LUV in2 ds world:may djoy of dLord nva depart 4rm u,0,0,0,False,False,False,False,84,16,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Good health is the best investment you can make. Get 5 health and fitness tips FREE then N50/5days. Text SUB to 38777 at no cost!,1,1,1,False,False,False,False,129,25,False,True,True,True,False,False,False,False,False,True,Medium,Both Correct
+Goal update: Arsenal 1:0 Stoke City Arsenal score a goal through A. Ramsey! at 5.Dial *244# For More,1,1,1,False,False,False,False,100,18,False,True,False,False,False,False,False,False,False,True,Medium,Both Correct
+Congratulations on ur admission to Funaab.One tin dat brings First Class with ease is the effective use of past questions.Freshers Meal is a handy archive of all available and up to date past questions,0,1,0,True,False,False,True,201,34,False,False,False,False,False,False,False,True,False,False,Long,SVM Wrong Only
+Compliments.I'll not be home cos I'm in church for youth camp.I'll let you know when I'll be around.no offense. Take careFrom: OPSSON smartphone,0,0,0,False,False,False,False,144,23,False,False,False,False,True,False,False,False,False,False,Medium,Both Correct
+You have no more SMS on your SMS bundle,1,1,1,False,False,False,False,39,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+you need help or information about the Ebola virus? Please call 08037879701/08037154575 or email ebolainfo@health.gov.ng (Federal Ministry of Health),1,1,1,False,False,False,False,149,19,False,True,False,False,False,False,False,False,True,False,Medium,Both Correct
+Happy new month.  Jesus loves you.,0,0,0,False,False,False,False,34,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Guess wat bro? Aunty aishat just gave birth to a bouncin baby gal todae wich is 28th march nd 2morrow 29th march is also ur bofdae congratulationz,0,0,0,False,False,False,False,146,27,False,False,False,False,False,False,False,False,True,False,Medium,Both Correct
+Yea I go arrange  am bro.  Thanks for your long patience.  You're bae(no homo),0,0,0,False,False,False,False,78,14,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+AlertZAcct:200**001DT:8/1/2014:4:16 PMPOS Intl- WWW.ALIEXPRESS.COM - 2C8CDR Amt:283.76Br:Head OfficeBal:18,0,0,0,False,False,False,False,106,8,True,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Medical: Gall stones can cause a right-sided tummy pain. Prevent this by cutting down on oily foods. Stop fried foods! Drink 8 to 10 glasses of water daily.,1,1,1,False,False,False,False,156,28,False,False,False,False,False,False,True,False,False,True,Medium,Both Correct
+Yello welcome to MTN please SAVE the setup information that will be sent shortly,1,1,1,False,False,False,False,80,14,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+I'll call u wen its 12.30am with ma Mtn....don't sleep oo,0,0,0,False,False,False,False,57,11,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Ebola is spread through contact with blood,1,1,1,False,False,False,False,42,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Get 1 FREE Ring Back Tune for 30days. Text 10 to 251 for  Ghen Ghen Love by Yemi Alade or Text MORE to 251 for a list of more free tunes. Valid till April 30th,1,1,1,False,False,False,False,159,35,False,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+Acct: ******1736Amt: NGN18,0,0,0,False,False,False,False,26,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+"Yes!!! Anoda gr8 opotunity has cum 2wrk in His vineyard. We r 2prayafuli prepare 4a ministratn dt goes inline wit""D VESSEL OF LIGHT""as we luk forward 2welcum dose in mawuko on sunday(feb14). PLZ",0,0,0,False,False,False,False,194,33,False,False,False,False,False,False,False,False,False,True,Long,Both Correct
+534,0,0,1,False,True,False,True,3,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Get the latest hit Dorobucci by The Mavins crew on MTN Callertune! Text 030100 to 4100 to get it now. N50/tune.,1,1,1,False,False,False,False,111,21,False,True,False,False,True,False,False,False,False,True,Medium,Both Correct
+I wish that you were here,1,0,0,True,True,True,False,25,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+Happy children day.,0,0,0,False,False,False,False,19,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Thrill your callers with your Favourite Football Club Ring Back Tune for FREE. Text CLUB to 251 for a list of football club tunes or text 10 to 251 for Man U,1,1,1,False,False,False,False,157,32,False,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+First bank acc;No: 30XXXXXX056Name: Salami AFUSAT,0,0,0,False,False,False,False,49,6,False,False,False,False,False,True,False,False,False,False,Short,Both Correct
+A pessimist sees the difficulty in every opportunity; an optimist sees the opportunity in every difficulty. Even impossible,1,1,1,False,False,False,False,123,18,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Your account was credited with N100 and service charge of N10 deducted. N100 will be deducted upon your next recharge. Please repay by 05/Jul/2014,1,1,1,False,False,False,False,146,24,False,True,True,False,False,True,False,False,False,False,Medium,Both Correct
+Oluwolepaul@gmail.com,0,0,0,False,False,False,False,21,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Beluvd,0,0,0,False,False,False,False,6,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+00XXXXXX10 GTB SAVINGSOLUBIYI AKINTUNDE C,0,0,0,False,False,False,False,41,5,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Gudmorning,0,0,0,False,False,False,False,10,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+While waiting for P67,0,0,1,False,True,False,True,21,4,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Gudmornin Ay hw was us night pls i just wanted to ask u if u av given d engineer d phone pls cal my mtn no. Thank you.,0,0,0,False,False,False,False,118,28,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Get tunes in this Advent calender free for 7days326-Jolificate327-Merry litte christmas341-Happy holidaysTunes&Service N50 after,1,1,1,False,False,False,False,128,14,False,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+Your account was credited with N100 and service charge of N10 deducted. N100 will be deducted upon your next recharge. Please repay by 30/Jul/2014,1,1,1,False,False,False,False,146,24,False,True,True,False,False,True,False,False,False,False,Medium,Both Correct
+Happy Sunday to u ma,0,0,0,False,False,False,False,20,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Miles may lie between us but we are never far apart. For love doesn't count the miles. It's measured by the heart. I love you. Sweet dreams,0,0,0,False,False,False,False,139,27,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Nigga whollup whollup...I just wan remind you not to forget the jacket o. In igbo... Shebapo,0,0,0,False,False,False,False,92,16,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Txn Id R140614.2143.210022 to recharge 90 NGN from 7087214890 is successful. New balance is 90.22 NGN,0,0,0,False,False,False,False,101,16,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+You have purchased a recharge of NGN 90.00 from NTS TECHNOLOGIES NTS. Transid AIR-1405786403-444,1,1,1,False,False,False,False,96,14,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Good morning to u sir,0,0,0,False,False,False,False,21,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Congratulations! 08123984798 is one of the few lucky who can access our exclusive Famous Quotes service! To get started call *585*4*1# now! N20/day.,1,1,1,False,False,False,False,148,23,False,True,False,False,True,False,True,True,False,True,Medium,Both Correct
+Aldo i dnt knw wah i did 2u but wateva t may am xowi. av missed ur presnce in ma hrt n i wnt ma fwend bak. No 1can rplace ur place in my hrt.I care n stil luv u,0,0,0,False,False,False,False,160,40,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Cop: Didnt you hear my whistle,1,0,0,True,True,True,False,30,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+thank u ma,0,0,0,False,False,False,False,10,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Dear owner of number 2347XXXXX11 – are you ready to WIN up to N4000?! Play Mind2Moni game and WIN prizes! Start here: http://tin.bz/bVjH6 Price: N20/day.,1,1,1,False,False,False,False,153,25,True,False,True,True,False,False,True,True,True,True,Medium,Both Correct
+Lol. Forgive my troubles sir. Thanks sir,0,0,0,False,False,False,False,40,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Yea I'll initiate the transfer,0,0,0,False,False,False,False,30,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Text me pls. I'm in church,0,0,0,False,False,False,False,26,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+M.D.W.U.I.U.BN...MEDOO..IN DEO'S SPARAMUS!!!,0,0,0,False,False,False,False,44,3,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+Stil on d way.,0,0,0,False,False,False,False,14,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+There are some people who live in a dream world,1,1,1,False,False,False,False,47,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+OK...sir. Just entered his office now,0,0,0,False,False,False,False,37,6,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+Thanks alot ma,0,0,0,False,False,False,False,14,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Hmm I guess I shouldn't wait till I have what I really intend to send.  I'm going to transfer 2k now but u may not see it until tommorow cos its not instant,0,0,0,False,False,False,False,156,33,False,False,False,False,True,False,False,False,False,False,Medium,Both Correct
+"Interested in the latest gist. Enjoy 7 days free of ""iROKOtv""service. Text ""irokotv"" to 33300.Offer ends 11:59pm",1,1,1,False,False,False,False,112,17,False,True,False,True,False,False,False,False,False,False,Medium,Both Correct
+You will need to meet the lady that led Bible study at church yesterday to give her the office key. She would be at 5th opposite the bookshop. She should be there by abt 11:15am.,0,0,0,False,False,False,False,178,35,False,False,False,False,False,False,False,False,False,False,Long,Both Correct
+Sir my matric number is PG/13/0225communicationandGeneral studies.thank you sir,0,0,0,False,False,False,False,79,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+FREE LIVEWELL TIPS! Health is wealth and with LiveWell tips,1,1,1,False,False,False,False,59,10,False,False,False,True,False,False,False,False,False,True,Short,Both Correct
+I Am sorry to tell you this but it is the truth Am not ready for relationship and I don't think Am d right person for You Am telling u this bcos I don't want to hurt you Bye from Femi,0,0,0,False,False,False,False,183,41,False,False,False,False,False,False,False,False,False,False,Long,Both Correct
+Mr Ayoola 08XXXXXX17,0,0,0,False,False,False,False,20,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Good day.  Please note that your house rent expired on 31st Dec. 2013. Please ensure you pay immediately into the account below.  OLUWAGBENRO Thomas Olus,0,0,0,False,False,False,False,153,25,False,True,True,False,True,True,False,False,False,False,Medium,Both Correct
+dell inspiron 11 3000,0,0,1,False,True,False,True,21,4,False,True,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+Paulo pls pay in 30k into 1002226443 uba..... maa muti-ventures ltd,0,0,0,False,False,False,False,67,11,False,True,True,False,False,False,False,False,False,False,Short,Both Correct
+Enjoy uninterrupted chatting and PINGing on BBM,1,1,1,False,False,False,False,47,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Don't let your account balance run LOW!!! Call 14120 for FREE to get your AIRTIME today...,0,1,1,True,True,True,False,90,16,False,True,False,True,False,True,False,False,False,True,Medium,Both Wrong
+What do you do in a situation,1,0,0,True,True,True,False,29,7,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+Am stil waiyx to see ur sallah outluk even though u dd nt request for anythx.,0,0,0,False,False,False,False,77,16,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+There is a letter and a cheque for you at Funaab . You can call me sir. It is with me.,0,0,0,False,False,False,False,86,21,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Your opportunity to become PMP Certified is here. Register for your PMP Training today at Idea Konsult,0,1,1,True,True,True,False,102,17,False,False,False,False,False,False,False,False,False,False,Medium,Both Wrong
+Do have a safe trip and may the Lord prosper your ways and surround you with favour everywhere you go. We're missing you already.,0,0,0,False,False,False,False,129,24,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Usernane: ogungbilPasssord: yur7a9GK88You can access the control panel here: www.ogungbile.net/cpanel,0,0,0,False,False,False,False,101,10,True,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+HE sees it from d begining just as HE'll see u tru 2014-A Victor.HE'll make all lines fall in pleasant places 4u.Happy New Year...Accept my best wishes in 2014.,0,0,0,False,False,False,False,160,29,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+PUNCH NEWSWEDESDAY,1,1,1,False,False,False,False,18,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Dial *662# on ur phone & follow d options,0,1,0,True,False,False,True,41,9,False,True,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+LIVE MATCH: World Cup Argentina vs Switzerland at Arena Corinthians. Kick-off at 01-07-2014 17:00.,1,1,1,False,False,False,False,98,14,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+"Isa Adio invited you to Facebook. Sign up today for free: http://fb.com/l/24rQyAY5juy27xn Reply ""stop"" to stop getting Facebook texts",1,1,1,False,False,False,False,133,19,True,False,False,True,False,False,False,False,False,False,Medium,Both Correct
+From Begger take bus to Iyanaipaja. From Iyanaipaja take a bus to Iyanoba. From Iyanoba take  a bus going to Badagry & drop at Living Faith Church when u,0,0,0,False,False,False,False,153,29,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+A Nigerian proverb says that: He who is afraid of doing too much always does too little.Reply PRO for Naija Proverbs at N50/wk,1,1,1,False,False,False,False,126,23,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Happy new month you sir,0,0,0,False,False,False,False,23,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+When an egg is broken with force from the outside,1,1,1,False,False,False,False,49,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Mrs Cold-catcher,0,0,0,False,False,False,False,16,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+When a person yields to selfish impulses,1,0,1,True,False,False,True,40,7,False,False,False,False,False,False,False,False,False,False,Short,SVM Wrong Only
+"Hv U picked up a Membership Card? Our 1st Meetn Session holds ds Sat. (15th) @ ""Peak Olam Suites""",0,0,0,False,False,False,False,97,19,False,False,False,False,False,True,False,False,True,False,Medium,Both Correct
+Uwc dear,0,0,0,False,False,False,False,8,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Just think! In the past,1,0,0,True,True,True,False,23,5,False,False,False,False,False,False,False,False,False,True,Very Short,Both Wrong
+Plz,0,0,0,False,False,False,False,3,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Welcome to MTN BlackBerry BBLITED. You have 10MB inclusive data bundle,1,1,1,False,False,False,False,70,11,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+M,1,0,0,True,True,True,False,1,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+Your Acct 3041207489 Has Been Debited with NGN500.00 On 05-MAR-2014 10:10:47 By ATM WITHDRAWAL-GTBank EBranch UNAAB/Ogun. Bal: NGN1,0,0,0,False,False,False,False,131,18,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+"Thank you for using SMS Chat service. You have been successfully unsubscribed. You can re-join at anytime by sending ""1"" to 38490.",1,1,1,False,False,False,False,130,22,False,True,False,False,False,False,True,False,False,False,Medium,Both Correct
+AlertZAcct:200**001DT:7/30/2014:12:00 AMMC Int Web Prch-000000005291--WWW.ADR Amt:490.00Br:Sango OtaBal:2,0,0,0,False,False,False,False,105,7,True,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Flat,1,0,1,True,False,False,True,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Enjoy updates on global business,1,1,1,False,False,False,False,32,5,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Gud a.m dearie....pls hlp me bring ur 501note to skul and beep me wen u are in skul.takia,0,0,0,False,False,False,False,89,18,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Am in church already jere. Omo AGS not smilling,0,0,0,False,False,False,False,47,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+I may not get to see you as often as I like,0,0,0,False,False,False,False,43,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Mrning.Pls note that Closure of school does not affect CSC 602 Project,0,0,0,False,False,False,False,70,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+GAME ON Latest & Exciting Unlimited mobile games to thrill your mind. Check the best collection. Click: http://games.glo.com,1,1,1,False,False,False,False,124,18,True,False,False,False,True,False,False,False,False,False,Medium,Both Correct
+An ordnary stone in David's hand had an xtra-ordnay efect on Goliath.May d ordnary tinz u do hens4th result 2 an extra-ordnary brk2rus.Success in ur xams,0,0,0,False,False,False,False,153,26,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Your Acct 3041207489 Has Been Debited with NGN3,0,0,0,False,False,False,False,47,8,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Your MTN Smart Biz will expire on 20/Aug/2014 14:36 and will be automatically renewed. We hope you're enjoying it. Thank you!,1,1,1,False,False,False,False,125,21,False,True,False,False,False,False,False,False,False,True,Medium,Both Correct
+Notice is hereby given 4 collectn of nominatn form into all elective positions of ASUU UNAAB. Obtain nominatn form@ d Secretariat & return same on/or before 13th March 2014 by 4pm. Contestants must ensure adherence to PHC declaration. Candidate who violate d declaration shall be disqualified.,0,0,0,False,False,False,False,293,46,False,True,False,False,False,False,False,False,False,False,Long,Both Correct
+People who fasten themselves to small things deprive themselves of the bigger things in life.,1,1,1,False,False,False,False,93,15,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Yello ! Get the hottest release  “Go” by Tuface on MTN Callertunez. Reply 78 to 4100 to get it now at N5 valid for 30 days.,1,1,1,False,False,False,False,123,26,False,True,False,False,True,False,False,False,False,True,Medium,Both Correct
+He is only advancing in life,1,0,0,True,True,True,False,28,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Wrong
+8088667773,0,0,1,False,True,False,True,10,1,False,True,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+If we are in tune,1,0,1,True,False,False,True,17,5,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+"Well Done! 09092071782 you are among the special ones to win 7 FREE days of ""History Facts"" & then N100/week! Text OK to 7803 at no cost!",1,1,1,False,False,False,False,137,27,False,True,True,True,False,False,False,False,False,True,Medium,Both Correct
+We should be going on in 5 mins,0,0,0,False,False,False,False,31,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+"Today is Oladipupo Olawale Adisa's birthday. Reply to post on his Timeline or reply 1 to post ""Happy Birthday!"".",1,1,1,False,False,False,False,112,19,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Dear esteemed NCS member,0,0,0,False,False,False,False,24,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Beluvd! Ao z bn ur break?D mini campus interview has alredy kickd off. Blvd,0,0,0,False,False,False,False,75,14,False,False,False,False,False,False,False,False,True,True,Short,Both Correct
+Dear MR ODULUSI,0,0,0,False,False,False,False,15,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Ok thank u God bless u big for.me,0,0,0,False,False,False,False,33,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Mrnin 2 u,0,0,0,False,False,False,False,9,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Your Acct 3041207489 Has Been Debited with NGN10,0,0,0,False,False,False,False,48,8,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Back to Enugu.,0,0,0,False,False,False,False,14,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Do you have a car? Did you know that you can keep it running like new. To know about your car,1,1,1,False,False,False,False,93,21,False,False,False,False,True,False,False,False,True,False,Medium,Both Correct
+Evening ma,0,0,0,False,False,False,False,10,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+I'm n chm 231 class..:-) vvv tired.wasup wit u???HP u gud.God bless u,0,0,0,False,False,False,False,69,13,False,False,False,False,False,False,False,False,True,False,Short,Both Correct
+Bode & Ikeade Maxwell.GTBank: 0046655614. Thank you,0,0,0,False,False,False,False,51,7,False,True,False,False,False,True,False,False,False,False,Short,Both Correct
+You know what?  I'm coming today,0,0,0,False,False,False,False,32,6,False,False,False,False,True,False,False,False,True,False,Short,Both Correct
+As u step in2 anoda year of ur life may u plant & reap favor,0,0,0,False,False,False,False,60,15,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Like the stars were made to twinkle,0,1,0,True,False,False,True,35,7,False,False,False,True,False,False,False,False,False,False,Short,SVM Wrong Only
+180.00NGN has been credited. Main Bal:N 182.30. Enjoy 9K/s on Bounce2Bounce,1,1,1,False,False,False,False,75,11,False,False,True,False,False,True,False,False,False,False,Short,Both Correct
+If your inner self is not satisfied with you then you will never be able to satisfy the outer circle.,1,0,1,True,False,False,True,101,20,False,False,False,False,False,False,False,False,False,False,Medium,SVM Wrong Only
+JOKE. Teacher: Amaka,1,0,1,True,False,False,True,20,3,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Good evening guys. In May,0,0,0,False,False,False,False,25,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+WE CARE FOR YOU 24 hours a day. You can reach our customer support by dialing 121,1,1,1,False,False,False,False,81,17,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Thoburn no 13,0,0,0,False,False,False,False,13,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Tak a very gud kia of ursef,0,0,0,False,False,False,False,27,7,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Odulusi Gbenga Peter,0,0,0,False,False,False,False,20,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Ma thank u very much ma.I am very grateful ma.thanks,0,0,0,False,False,False,False,52,10,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+In d middle of something....I'll call u,0,0,0,False,False,False,False,39,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Yello! You have used up your BB10 data plan but you will now continue enjoying data at N0.006835938 kobo/KB until the data plan expires on 2016-02-13,1,1,1,False,False,False,False,149,26,False,True,False,False,True,False,False,False,False,True,Medium,Both Correct
+Acct: ******1736Amt: NGN90,0,0,0,False,False,False,False,26,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Acct: ******1736Amt: NGN300.00 DrDesc: Airtime Purchase-USSD-101CT0000000000005663173¿USSDAvail Bal: NGN46,0,0,0,False,False,False,False,106,8,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Calvary grtns,0,0,0,False,False,False,False,13,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Wat happened to him hope he is okay now,0,0,0,False,False,False,False,39,9,False,False,False,False,True,False,False,False,False,False,Short,Both Correct
+Discover Twitter!Go to m.twitter.com/verge or reply FOLLOW VERGE for more Tweets. Reply DISCOVER OFF to stop. Terms: https://t.co/tos/s/7z2Y,1,1,1,False,False,False,False,140,18,True,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+Straight from cupid himself. Get 3 days FREE daily relationship health tips that would keep you both falling in love over and over with each other. Subscribe by sending RH to 4949,0,1,1,True,True,True,False,179,32,False,True,False,True,False,False,True,False,False,False,Long,Both Wrong
+Remember to show your support and appreciation for the people who place their hope in you. These are the most important people in your life.,1,1,1,False,False,False,False,140,25,False,False,False,False,True,False,False,False,False,False,Medium,Both Correct
+Pls text prof Ezeri asgmnt to me thks,0,0,0,False,False,False,False,37,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Sorry here is it 111952789827531 am sorry I travelled,0,0,0,False,False,False,False,53,9,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+08XXXXXXX70  MRS OLUKEHINDE.VICE PRINCIPAL,0,0,0,False,False,False,False,42,4,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+At Last!Our 1st meetn holds 2day by 1pm @Peak Olam Suites,0,0,0,False,False,False,False,57,11,False,False,False,False,False,False,False,False,False,True,Short,Both Correct
+Your Bumpa account has been credited with N2000.00 valid until 03/02/2016. To check bonus dial #122*2#,1,1,1,False,False,False,False,102,16,False,True,True,True,False,True,False,False,False,False,Medium,Both Correct
+Catch the Football fever on Facebook without internet. Dial *510# and join Free quick Facebook now!,1,1,1,False,False,False,False,99,16,False,True,False,True,True,False,False,False,False,True,Medium,Both Correct
+(08XXXXXX00) (08XXXXXX07) His name... Kojusola Tunde,0,0,0,False,False,False,False,52,6,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Hi dear,0,0,0,False,False,False,False,7,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Congratulations Phone Lord! Enjoy Rental Bonus of N50 for today. Bonus to be used for on-net calls and SMS till 9am today,1,1,1,False,False,False,False,121,22,False,False,False,True,False,False,False,True,False,True,Medium,Both Correct
+pls kindly change my address before uploading d paper Department of Electrical and Information Engineering,0,0,0,False,False,False,False,106,15,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Teamvier. Id: 531 812 529. Password: 8vx52q,1,0,0,True,True,True,False,43,7,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+Bosnia V Iran 5PM,1,0,1,True,False,False,True,17,4,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+Am Sorry Don't Let me delay you. You call go home will call you when .done,0,0,0,False,False,False,False,74,16,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+venue. no 12 seriki aro abass street off osolo road 7/8 bus stop airport rd ajao estate.,0,0,0,False,False,False,False,88,17,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Ref: 43052745203/07 14:46:42Amt: N1,0,0,0,False,False,False,False,35,4,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Ramadhan has come and gone may Allah accept our fast and continue to instill the virtues of the blessed mth in us.Amin Happy id el fitri celebration,0,0,0,False,False,False,False,148,27,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Here is my no 07XXXXXX812,0,0,0,False,False,False,False,25,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+N200 was transferred to you from the 08068119076 on 18/07/14 16:51 via Share & Sell. Your new account balance is N200.09.,1,1,1,False,False,False,False,121,21,False,True,False,False,False,True,False,False,False,False,Medium,Both Correct
+Morning Sir,0,0,0,False,False,False,False,11,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+See me 2morrow,0,0,0,False,False,False,False,14,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Acct: ******7609Amt: NGN4,0,0,0,False,False,False,False,25,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Nigga Nwaoma called me. She want me to help her pick up an order so she's sending me cash for that. Tell her to gimme 3500 now on your behalf,0,0,0,False,False,False,False,141,30,False,True,True,False,True,True,False,False,False,False,Medium,Both Correct
+In a soft voice wif a standin ovation,0,0,0,False,False,False,False,37,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+lolx..disapointing?.. me too small 4 u?. or tu big?.or becos i ask 4 her d oda tym.. i just ask her nd ask her bcos i want u 2 knw ao i deal wif dos that i lov...or did u fink it is a sin? dn ask GOD about it..or did u fink it s tu early...remember it only comes but once. or u fink it is nt godly?PAIT!!.,0,0,0,False,False,False,False,305,69,False,False,False,False,False,False,False,False,True,True,Long,Both Correct
+Mr paul hapi new year in advance,0,0,0,False,False,False,False,32,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+.•*¨`*•. ☆ .•*¨`*•.Wishing You the HAPPIEST Birthday Ever!!!✿•*¨`*•. (¯`v´¯) (¯`v´¯) .•*¨`*•✿. . . ✿•*¨`*•.¸(¯`v´¯)¸.•´*¨`*•✿ . . .…………… ….♥ •.¸.•´♥……………,0,0,0,False,False,False,False,153,19,False,False,False,False,False,False,False,False,False,True,Medium,Both Correct
+80XXXXX526,0,0,0,False,False,False,False,10,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Our prayr team & I wil like to PRAY WIT U 4 UNUSUAL TESTIMONY. Prepare 4 PROPHETIC SOLUTION on Sat 15 Jun. SHARE YR PRAYR POINTS wit us. Steve Akoni.08098009673,0,0,0,False,False,False,False,160,30,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Your FREE TOMORROW Balance has been used. To get DOUBLE FREE CREDIT TOMORROW,1,1,1,False,False,False,False,76,13,False,False,True,True,False,True,False,False,False,False,Short,Both Correct
+2,1,0,1,True,False,False,True,1,1,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+08XXXXXX31. My Etisalat number. Please send 1Gb. You said its 950 right? Thanks you.,0,0,0,False,False,False,False,84,14,False,False,False,False,False,False,False,False,True,False,Medium,Both Correct
+Do ensure you subscribe to an MTN Data Bundle to avoid being charged out of bundle rates for browsing or for mobile app updates on your new smart phone. Visit www.mtnonline.com/tips for tips to help you avoid extra charges due to your smart phone.,1,1,1,False,False,False,False,247,44,True,False,False,False,False,False,True,False,False,False,Long,Both Correct
+GOODDAY.MICT1 EXAMINATION STARTS EXACTLY 9AM. TODAY. PLEASE ENDEAVOUR TO ARRIVE BY 8AM FOR GROUP DISCUSSION AND SITTING ARRANGEMENT. WISHING U BEST OF LUCK,0,0,0,False,False,False,False,155,23,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Challenges are tough to those who never face them but easy to those who accept them. Accept every challenge with a smile and see it disappear!,1,0,1,True,False,False,True,142,26,False,False,False,False,False,False,False,False,False,True,Medium,SVM Wrong Only
+"Today is Okeyinka Yetunde's birthday. Reply to post on her Timeline or reply 1 to post ""Happy Birthday!"".",0,1,1,True,True,True,False,105,18,False,False,False,False,False,False,False,False,False,True,Medium,Both Wrong
+Today..in less than 2 hours,0,0,0,False,False,False,False,27,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+EPL Is Here Again. Text Sport to 35241 For Sport News Update. Cost N100/30days,1,1,1,False,False,False,False,78,14,False,True,True,False,False,False,False,False,False,False,Short,Both Correct
+Goodevening sir,0,0,0,False,False,False,False,15,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Get 1 FREE Ring Back Tune for 30days. Text 2 to 251 for Aye by Davido or text MORE to 251 for a list of more free tunes. N50 activation fee appli<<Content not supported>>,1,1,1,False,False,False,False,170,34,False,False,False,True,False,False,False,False,False,False,Long,Both Correct
+The thing still didn't work o.  Want to clean my atm with spirit then I'll try again after environmental,0,0,0,False,False,False,False,104,19,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Double Your Recharge Promo is Back! Recharge N200 & above and get double to call all Networks in 9ja. Bonus is valid for 7 days,0,1,1,True,True,True,False,127,25,False,False,False,True,False,False,False,False,False,True,Medium,Both Wrong
+TEXT to 131   VIEW SELECT;CHANGE SELECT <destinationCode>;,1,1,0,False,True,False,True,58,7,False,False,False,False,False,False,False,False,False,False,Short,DistilBERT Wrong Only
+Dear 08189440237! Get 5 FREE days of useful alerts,1,1,1,False,False,False,False,50,9,False,True,False,True,False,False,False,False,False,True,Short,Both Correct
+Good night sir and have a nice dream,0,0,0,False,False,False,False,36,8,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+OK sir,0,0,0,False,False,False,False,6,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Gud pm ma,0,0,0,False,False,False,False,9,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Your favourite BlackBerry Monthly Bundle is still available at N1,0,1,1,True,True,True,False,65,10,False,False,False,False,False,False,False,False,False,False,Short,Both Wrong
+Low credit ?  No Wahala ! simply Dial *321#¿ to borrow.,1,1,0,False,True,False,True,55,11,False,True,True,False,False,True,False,False,True,True,Short,DistilBERT Wrong Only
+Loose belly fat in 7days! Send DIET to 38261 to subscribe for daily tips at N10 only.,1,1,1,False,False,False,False,85,17,False,True,False,False,False,False,True,False,False,True,Medium,Both Correct
+Hi,0,0,0,False,False,False,False,2,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Get Free Advice On HIV & Related Health Issues,1,1,1,False,False,False,False,46,9,False,False,False,True,False,False,False,False,False,False,Short,Both Correct
+2347067581558 has just tried to reach you by the Call Sponsor on 13/02/14 at 04:33.,1,1,1,False,False,False,False,83,15,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+I'm in school till 5pm o,0,0,0,False,False,False,False,24,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Champions know there are no shortcuts to the top. They climb the mountain one step at a time. Perseverance is the key!,1,0,1,True,False,False,True,118,22,False,False,False,False,True,False,False,False,False,True,Medium,SVM Wrong Only
+CONGRATS! U ve been selected 4 a Writen Test/Interview in a HR/Health Org. 2MRW Friday 28/02/2014. Venue DANAX PLAZA ADAMASINGBA B/STOP,0,0,1,False,True,False,True,135,21,False,True,False,False,False,False,False,True,False,True,Medium,DistilBERT Wrong Only
+Glo Backup,1,1,1,False,False,False,False,10,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Ayandiran bolanle khadijat(09/0787),0,0,0,False,False,False,False,35,3,False,True,False,False,False,False,False,False,False,False,Short,Both Correct
+Email: Oluwolepaul@gmail.com.  The domain I want to transfer to star host is www.alientechltd.us,0,0,0,False,False,False,False,96,13,True,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Tak a cab goin to iyana mortuary,0,0,0,False,False,False,False,32,7,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+If your daily life seems poor,1,1,1,False,False,False,False,29,6,False,False,False,False,False,False,True,False,False,False,Very Short,Both Correct
+RAMADAN THE MONTH OF FORGIVENESS AND BONANZA.For Ramadan Daily Prayer Guide. Text Ramadan to 35242.cost N100 /Ramadan Period.Content delivery starts next day,1,1,1,False,False,False,False,157,22,False,True,True,False,False,False,True,False,False,False,Medium,Both Correct
+Hey beloved,0,0,0,False,False,False,False,11,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+N350 was transferred to you from 081XXXXXX71 on 03/08/14 12:14 via Share & Sell. Your new account balance is N371.6.,1,1,1,False,False,False,False,116,20,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+If you want happiness in your life then never be a beggar of love,1,1,1,False,False,False,False,65,14,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+ATTN:MEMBERS OF ASUU-UNAAB COOPERATIVE.Kindly attend the 9th AGM of ASUU-UNAAAB Cooperative on Wed June 25,0,0,0,False,False,False,False,106,15,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Bakare sulaimoon gbolahan...0907it00804,0,0,0,False,False,False,False,39,3,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+Gtbank 01XXXXXX09 Oluwole Paul,0,0,0,False,False,False,False,30,4,False,False,False,False,False,True,False,False,False,False,Very Short,Both Correct
+Please call me. Y.ello,0,0,0,False,False,False,False,22,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Thanks so much for always been there for me,0,0,0,False,False,False,False,43,9,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+70XXXXXX51,0,0,0,False,False,False,False,10,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Looking for a new job? A good CV should be short/relevant; no more than 3pages.For more Job tips from Phillips Consulting,1,1,1,False,False,False,False,121,21,False,False,False,False,False,False,False,False,True,False,Medium,Both Correct
+Eunice(08XXXXXX25),0,0,0,False,False,False,False,18,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+You transferred N100.00 to 23481XXXXXX02. Your new account balance is N75.49. Thanks for using share n sell service.,0,1,1,True,True,True,False,116,18,False,False,False,False,False,True,False,False,False,False,Medium,Both Wrong
+Your relationship can be a beacon of hope to the outside world as you show devotion,1,1,1,False,False,False,False,83,16,False,False,False,False,False,False,False,False,False,False,Medium,Both Correct
+Dear TOSIN,0,0,0,False,False,False,False,10,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+It's Officially noted dat 20014 is in and seated with us.it brings all good life packages.Happy New year,0,0,0,False,False,False,False,104,18,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+Your FREE trial of GENERALNEWS ends today.To continue enjoying the service,1,1,1,False,False,False,False,74,11,False,False,False,True,False,False,False,False,False,False,Short,Both Correct
+hbd kenny many more yrs in good health and sucess sorry its cumij late tak care,0,0,0,False,False,False,False,79,16,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+I am going hom,0,0,0,False,False,False,False,14,4,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+But oby should know sha,0,0,0,False,False,False,False,23,5,False,False,False,False,True,False,False,False,False,False,Very Short,Both Correct
+Where re u?,0,0,0,False,False,False,False,11,3,False,False,False,False,False,False,False,False,True,False,Very Short,Both Correct
+Enjoy FREE CALLS this season! Call ALL Networks & Browse the internet Today! Get  N750 when you pay N250. Valid for 3 days. dial *142# NOW!,1,1,1,False,False,False,False,139,26,False,True,True,True,True,False,False,False,False,True,Medium,Both Correct
+Participate in the Canada International Business Conference Toronto june 12-13 2014,0,0,1,False,True,False,True,83,11,False,True,False,False,False,False,False,False,False,False,Medium,DistilBERT Wrong Only
+get all the ogbonge football gist and live scores from una favorite clubs dem. Text PIDGIN to 38400,1,1,1,False,False,False,False,99,18,False,True,False,False,False,False,False,False,False,False,Medium,Both Correct
+kindnes is a language which d dumb cn spik n d deaf cn undastnd. 10ks 4 d card. God bless U n ur plans dis mnth. Ds s ur mnth of testimony. Thanks so much more.,0,0,0,False,False,False,False,160,36,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+ME NT COM4TABLE WITHOUT U COLECTIN D RECEIT OR BEANX...pls reply me..,0,0,0,False,False,False,False,69,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+You transferred N200 to 081XXXXX992 on 30/07/14 16:42. Your new account balance is N206.09. Thanks for using Share & Sell.,1,1,1,False,False,False,False,122,20,False,False,False,False,False,True,False,False,False,False,Medium,Both Correct
+MTN Backup,1,1,1,False,False,False,False,10,2,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+21XXXXX18,0,0,0,False,False,False,False,9,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Are you searching for LOVE or in LOVE and you don't know how to keep it? Text DL to 30327 for LOVE ADVICE. Service cost N20/day. Powered by Etisalat,1,1,1,False,False,False,False,148,29,False,True,True,False,True,False,True,False,True,False,Medium,Both Correct
+Hw much do u tink s4 wud be nw in d market,0,0,0,False,False,False,False,42,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+As part of d preparatn towrds d success of dis yr TLC,0,0,0,False,False,False,False,53,12,False,False,False,False,False,False,False,False,False,False,Short,Both Correct
+STOP,1,1,1,False,False,False,False,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+7.26E+11,0,0,1,False,True,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,DistilBERT Wrong Only
+May  Everything Happy And Everything Bright Be Yours On Your Birthday From Morning Till Night. And Then Through The Year May The Same Thing Hold True So That Each Day Is Filled With Life’s Best Things For You!HAPI B'DAY,0,0,0,False,False,False,False,219,39,False,False,False,False,False,False,False,False,False,True,Long,Both Correct
+Gd am Sir/Ma,0,0,0,False,False,False,False,12,3,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Scared of Job interviews? No More Worries! Get that DREAM JOB today with daily INTERVIEW TIPS. Simply Text INT to 38080 @ N50 for 5days & enjoy first 2days FREE,1,1,1,False,False,False,False,160,30,False,True,False,True,False,False,True,False,True,True,Medium,Both Correct
+08XXXXXX59,0,0,0,False,False,False,False,10,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Yes I just got back ooooh,0,0,0,False,False,False,False,25,6,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Does your number end in 5?TODAY 27/07you're chosen to participate for the 'Nigeria Centenary 100 Million Naira Mega Jackpot'!Send WIN to 35777!N100/SMS,1,1,1,False,False,False,False,151,22,False,True,False,True,False,False,False,False,True,True,Medium,Both Correct
+Stop,1,1,1,False,False,False,False,4,1,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Internet,1,0,1,True,False,False,True,8,1,False,False,False,False,False,False,False,False,False,False,Very Short,SVM Wrong Only
+When I first saw you,0,0,0,False,False,False,False,20,5,False,False,False,False,False,False,False,False,False,False,Very Short,Both Correct
+Coke Studio Africa rounds up this Sunday at 6pm on AIT. Catch up on all the fun with 2Face,0,0,1,False,True,False,True,90,19,False,False,False,False,False,False,False,False,False,False,Medium,DistilBERT Wrong Only

@@ -1,8 +1,7 @@
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from app.api.analysis import router as analysis_router
+from backend.app.api.analysis import router as analysis_router
 
 
 app = FastAPI(title="AI SMS URL Analyzer")
@@ -26,7 +25,7 @@ app.include_router(analysis_router)
 @app.get("/")
 def root():
     return {
-        "message": "AI SMS URL Analyzer API çalışıyor!"
+        "message": "AI SMS URL Analyzer API is running!"
     }
 
 
@@ -35,4 +34,3 @@ def health_check():
     return {
         "status": "ok"
     }
-

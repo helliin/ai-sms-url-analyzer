@@ -1,5 +1,5 @@
-
 <!DOCTYPE html>
+
 <html lang="tr">
 
 <head>
@@ -13,62 +13,349 @@
 
 <body>
 
-    <div class="container">
+    <!-- =========================
+         GİRİŞ SAYFASI
+    ========================== -->
 
-        <h1>AI SMS & URL Analyzer</h1>
+    <div class="landing-page" id="landingPage">
 
-        <p>
-            Şüpheli SMS mesajlarını ve URL'leri analiz edin.
-        </p>
+        <div class="landing-card">
 
-        <textarea
-            id="messageInput"
-            placeholder="SMS mesajını buraya yazın..."
-        ></textarea>
+            <div class="landing-icon">
+                🛡️
+            </div>
 
-        <input
-            type="text"
-            id="urlInput"
-            placeholder="Varsa URL'yi buraya yazın..."
+            <h1>AI SMS & URL Analyzer</h1>
+
+            <p class="landing-description">
+                Şüpheli mesajları, e-postaları ve bağlantıları
+                yapay zekâ destekli analiz ile inceleyin.
+            </p>
+
+            <input
+                type="email"
+                id="gmailInput"
+                class="gmail-input"
+                placeholder="Gmail adresinizi girin"
+                autocomplete="email"
+            >
+
+            <button
+                id="startWithGmailButton"
+                class="gmail-start-button"
+                type="button"
+            >
+                Gmail ile Başla
+            </button>
+
+            <div class="login-divider">
+                <span>veya</span>
+            </div>
+
+            <button
+                id="continueWithoutGmailButton"
+                class="secondary-button"
+                type="button"
+            >
+                Gmail Olmadan Devam Et
+            </button>
+
+            <div id="loginStatus" class="login-status"></div>
+
+            <p class="privacy-note">
+                Gmail hesabınız yalnızca mail analizi için kullanılır.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =========================
+         ANA UYGULAMA
+    ========================== -->
+
+    <div class="app-page" id="appPage">
+
+        <!-- Üst bölüm -->
+
+        <header class="app-header">
+
+            <div>
+                <h1>AI SMS & URL Analyzer</h1>
+
+                <p>
+                    Mesajlarınızı ve bağlantılarınızı güvenli şekilde analiz edin.
+                </p>
+            </div>
+
+            <div class="gmail-header-actions">
+
+                <button
+                    id="connectGmailButton"
+                    class="gmail-connect-button"
+                    type="button"
+                >
+                    📧 Gmail'i Bağla
+                </button>
+
+                <div
+                    id="gmailConnectedStatus"
+                    class="gmail-connected"
+                    style="display: none;"
+                >
+                    ✓ Gmail Bağlı
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- =========================
+             SMS ANALİZİ
+        ========================== -->
+
+        <section class="analyzer-card">
+
+            <div class="section-heading">
+
+                <span class="section-icon">
+                    🔍
+                </span>
+
+                <div>
+                    <h2>Mesaj Analizi</h2>
+
+                    <p>
+                        Şüpheli SMS veya mesajınızı aşağıya girin.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <textarea
+                id="messageInput"
+                placeholder="SMS mesajını buraya yazın..."
+            ></textarea>
+
+
+            <input
+                type="text"
+                id="urlInput"
+                placeholder="Varsa URL'yi buraya yazın..."
+            >
+
+
+            <button
+                id="analyzeButton"
+                class="main-analyze-button"
+                type="button"
+            >
+                Analizi Başlat
+            </button>
+
+        </section>
+
+
+        <!-- =========================
+             GMAIL BÖLÜMÜ
+        ========================== -->
+
+        <section class="gmail-section">
+
+            <div class="section-heading gmail-heading">
+
+                <span class="section-icon">
+                    ✉️
+                </span>
+
+                <div>
+                    <h2>Mail Analizi</h2>
+
+                    <p>
+                        Gmail hesabınızdaki mailleri görüntüleyip
+                        tek tek analiz edebilirsiniz.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <button
+                id="loadGmailButton"
+                class="gmail-toggle-button"
+                type="button"
+            >
+                Maillerimi Görüntüle
+            </button>
+
+
+            <div
+                id="gmailStatus"
+                class="gmail-status"
+            ></div>
+
+
+            <div
+                id="gmailList"
+                class="gmail-list"
+            ></div>
+
+
+            <div
+                id="gmailBody"
+                class="gmail-body"
+            ></div>
+
+        </section>
+
+
+        <!-- =========================
+             ANALİZ SONUCU
+        ========================== -->
+
+        <section
+            class="result-card"
+            id="resultCard"
         >
 
-        <button id="analyzeButton">
-            Analiz Et
-        </button>
+            <div class="result-heading">
+
+                <span class="result-icon">
+                    📊
+                </span>
+
+                <h2>Analiz Sonucu</h2>
+
+            </div>
 
 
-        <!-- Analiz sonucu -->
-        <div class="result-card" id="resultCard">
-
-            <h2>Analiz Sonucu</h2>
+            <!-- Risk skoru -->
 
             <div class="risk-score">
 
-                <span>Risk Skoru</span>
+                <span>
+                    Risk Skoru
+                </span>
 
                 <strong id="riskScore">
-                    - / 100
+                    0
                 </strong>
 
             </div>
 
 
-            <div class="risk-status" id="riskStatus">
+            <!-- Risk durumu -->
+
+            <div
+                class="risk-status"
+                id="riskStatus"
+            >
                 Henüz analiz yapılmadı
             </div>
 
 
+            <!-- Risk faktörleri -->
+
             <div class="risk-factors">
 
-                <h3>Risk Faktörleri</h3>
+                <h3>
+                    Tespit Edilen Riskler
+                </h3>
 
                 <ul id="riskFactors">
-                    <li>Analiz sonucu burada gösterilecek.</li>
+
+                    <li>
+                        Analiz sonucu burada gösterilecek.
+                    </li>
+
                 </ul>
 
             </div>
 
-        </div>
+
+            <!-- LLM sonucu -->
+
+            <div class="llm-result">
+
+                <h3>
+                    🤖 LLM İkinci Görüş
+                </h3>
+
+
+                <p>
+
+                    <strong>
+                        Tahmin:
+                    </strong>
+
+                    <span id="llmPrediction">
+                        -
+                    </span>
+
+                </p>
+
+
+                <p>
+
+                    <strong>
+                        Risk Skoru:
+                    </strong>
+
+                    <span id="llmRiskScore">
+                        -
+                    </span>
+
+                </p>
+
+
+                <p>
+
+                    <strong>
+                        Güven:
+                    </strong>
+
+                    <span id="llmConfidence">
+                        -
+                    </span>
+
+                </p>
+
+
+                <p>
+
+                    <strong>
+                        Gerekçe:
+                    </strong>
+
+                    <span id="llmReason">
+                        -
+                    </span>
+
+                </p>
+
+
+                <div>
+
+                    <strong>
+                        LLM Risk Faktörleri:
+                    </strong>
+
+                    <ul id="llmRiskFactors">
+
+                        <li>
+                            -
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </section>
 
     </div>
 
@@ -78,4 +365,3 @@
 </body>
 
 </html>
-
