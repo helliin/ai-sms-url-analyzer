@@ -1,8 +1,7 @@
 ﻿from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
 
-from backend.ai.analyzer import analyze_sms
+from backend.app.api.analysis import router as analysis_router
 
 
 app = FastAPI(title="AI SMS URL Analyzer")
@@ -20,6 +19,9 @@ app.add_middleware(
 )
 
 
+app.include_router(analysis_router)
+
+
 @app.get("/")
 def root():
     return {
@@ -32,17 +34,3 @@ def health_check():
     return {
         "status": "ok"
     }
-
-
-class SMSRequest(BaseModel):
-    message: str
-    url: str = ""
-
-
-@app.post("/analyze")
-def analyze_sms_endpoint(request: SMSRequest):
-
-    return analyze_sms(
-        request.message,
-        request.url
-    )

@@ -4,109 +4,1050 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f7fb;
-    color: #1f2937;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+:root {
+    --bg: #eef1f6;
+    --card: #ffffff;
+    --text: #1f2937;
+    --muted: #6b7280;
+    --border: #e2e6ee;
+
+    --primary: #5b4bdb;
+    --primary-hover: #4939c5;
+
+    --gmail: #198754;
+    --gmail-hover: #157347;
+
+    --success: #198754;
+    --warning: #d97706;
+    --danger: #dc3545;
+
+    --shadow:
+        0 15px 40px rgba(31, 41, 55, 0.08);
 }
 
-.container {
-    width: 90%;
-    max-width: 800px;
-    background-color: white;
-    padding: 40px;
-    border-radius: 16px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+body {
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(91, 75, 219, 0.10),
+            transparent 35%
+        ),
+        radial-gradient(
+            circle at bottom right,
+            rgba(228, 91, 91, 0.08),
+            transparent 35%
+        ),
+        var(--bg);
+
+    color: var(--text);
+    min-height: 100vh;
+}
+
+
+/* =================================
+   GİRİŞ SAYFASI
+================================= */
+
+.landing-page {
+    min-height: 100vh;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    /* Çok açık mavi arka plan */
+    background: #f3f9ff;
+}
+
+.landing-card {
+    width: 100%;
+    max-width: 520px;
+
+    background: var(--card);
+
+    padding: 55px 45px;
+
+    border-radius: 24px;
+
+    box-shadow: var(--shadow);
+
     text-align: center;
 }
 
-h1 {
-    font-size: 32px;
-    margin-bottom: 15px;
+.landing-icon {
+    width: 80px;
+    height: 80px;
+
+    margin: 0 auto 25px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 22px;
+
+    background: #eeeafd;
+
+    font-size: 40px;
 }
 
-p {
-    font-size: 17px;
-    color: #6b7280;
+.landing-card h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
 }
+
+.landing-description {
+    color: var(--muted);
+
+    font-size: 17px;
+
+    line-height: 1.6;
+
+    margin-bottom: 30px;
+}
+
+.gmail-input {
+    width: 100%;
+
+    padding: 15px 16px;
+
+    margin-bottom: 14px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    background: #fafbfc;
+
+    color: var(--text);
+
+    font-size: 15px;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
+}
+
+.gmail-input:focus {
+    outline: none;
+
+    background: white;
+
+    border-color: var(--gmail);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(25, 135, 84, 0.10);
+}
+
+.gmail-start-button {
+    width: 100%;
+
+    padding: 16px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: var(--gmail);
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.gmail-start-button:hover {
+    background: var(--gmail-hover);
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px
+        rgba(228, 91, 91, 0.25);
+}
+
+.gmail-start-button:disabled {
+    opacity: 0.65;
+
+    cursor: wait;
+
+    transform: none;
+}
+
+
+/* Gmail olmadan devam et */
+
+.secondary-button {
+    border: none;
+
+    background: transparent;
+
+    color: #6b7280;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    padding: 8px 12px;
+
+    margin-top: 4px;
+
+    transition:
+        color 0.2s ease,
+        transform 0.2s ease;
+}
+
+.secondary-button:hover {
+    color: #4b3fb4;
+
+    transform: translateY(-1px);
+}
+
+
+/* Gmail ile başla / olmadan devam et ayracı */
+
+.login-divider {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin: 20px 0 8px;
+
+    color: #9ca3af;
+
+    font-size: 13px;
+}
+
+.login-divider::before,
+.login-divider::after {
+    content: "";
+
+    flex: 1;
+
+    height: 1px;
+
+    background: #e5e7eb;
+}
+
+.login-status {
+    margin-top: 18px;
+
+    color: var(--muted);
+
+    font-size: 14px;
+}
+
+.privacy-note {
+    margin-top: 25px;
+
+    color: #9ca3af;
+
+    font-size: 13px;
+}
+
+
+/* =================================
+   ANA UYGULAMA
+================================= */
+
+.app-page {
+    display: none;
+
+    width: 100%;
+
+    max-width: 1050px;
+
+    margin: 0 auto;
+
+    padding: 40px 25px 60px;
+}
+
+
+/* =================================
+   ÜST BAŞLIK
+================================= */
+
+.app-header {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+    margin-bottom: 30px;
+}
+
+.app-header h1 {
+    font-size: 30px;
+
+    margin-bottom: 8px;
+}
+
+.app-header p {
+    color: var(--muted);
+
+    font-size: 15px;
+}
+
+.gmail-header-actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+}
+
+.gmail-connect-button {
+    border: none;
+
+    padding: 10px 18px;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+
+    font-weight: 600;
+
+    background: white;
+
+    color: var(--primary);
+
+    border: 1px solid var(--primary);
+}
+
+.gmail-connect-button:hover {
+    background: var(--primary);
+
+    color: white;
+}
+
+.gmail-connect-button:disabled {
+    cursor: wait;
+
+    opacity: 0.7;
+}
+
+.gmail-connected {
+    white-space: nowrap;
+
+    padding: 9px 14px;
+
+    border-radius: 20px;
+
+    background: #e8f7ef;
+
+    color: var(--success);
+
+    font-size: 14px;
+
+    font-weight: bold;
+}
+
+
+/* =================================
+   GENEL KARTLAR
+================================= */
+
+.analyzer-card,
+.gmail-section,
+.result-card {
+    background: var(--card);
+
+    border-radius: 20px;
+
+    padding: 30px;
+
+    box-shadow: var(--shadow);
+
+    margin-bottom: 25px;
+}
+
+
+/* =================================
+   BÖLÜM BAŞLIKLARI
+================================= */
+
+.section-heading {
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.section-icon {
+    width: 48px;
+    height: 48px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 14px;
+
+    background: #eeeafd;
+
+    font-size: 23px;
+}
+
+.section-heading h2 {
+    font-size: 22px;
+
+    margin-bottom: 5px;
+}
+
+.section-heading p {
+    color: var(--muted);
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* =================================
+   INPUTLAR
+================================= */
+
 textarea,
 input {
     width: 100%;
-    margin-top: 20px;
-    padding: 14px;
-    border: 1px solid #d1d5db;
-    border-radius: 10px;
-    font-size: 16px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    background: #fafbfc;
+
+    color: var(--text);
+
+    font-family: inherit;
+
+    font-size: 15px;
+
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease,
+        background 0.2s ease;
 }
 
 textarea {
-    min-height: 140px;
+    min-height: 160px;
+
+    padding: 16px;
+
     resize: vertical;
+}
+
+input {
+    padding: 15px 16px;
+
+    margin-top: 14px;
 }
 
 textarea:focus,
 input:focus {
     outline: none;
-    border-color: #2563eb;
+
+    background: white;
+
+    border-color: var(--primary);
+
+    box-shadow:
+        0 0 0 3px
+        rgba(91, 75, 219, 0.10);
 }
 
-button {
+
+/* =================================
+   ANA ANALİZ BUTONU
+================================= */
+
+.main-analyze-button {
     width: 100%;
-    margin-top: 20px;
-    padding: 14px;
+
+    margin-top: 18px;
+
+    padding: 15px;
+
     border: none;
-    border-radius: 10px;
-    background-color: #2563eb;
+
+    border-radius: 12px;
+
+    background: var(--primary);
+
     color: white;
-    font-size: 17px;
+
+    font-size: 16px;
+
     font-weight: bold;
+
     cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
 }
 
-button:hover {
-    background-color: #1d4ed8;
+.main-analyze-button:hover {
+    background: var(--primary-hover);
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 8px 20px
+        rgba(91, 75, 219, 0.25);
 }
+
+.main-analyze-button:disabled {
+    opacity: 0.65;
+
+    cursor: wait;
+
+    transform: none;
+}
+
+
+/* =================================
+   GMAIL BÖLÜMÜ
+================================= */
+
+.gmail-section {
+    border-top:
+        4px solid var(--gmail);
+}
+
+.gmail-heading .section-icon {
+    background: #e8f7ef;
+}
+
+.gmail-toggle-button {
+    width: auto;
+
+    min-width: 210px;
+
+    padding: 12px 20px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: var(--gmail);
+
+    color: white;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.gmail-toggle-button:hover {
+    background: var(--gmail-hover);
+
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 7px 18px
+        rgba(228, 91, 91, 0.22);
+}
+
+.gmail-status {
+    margin-top: 15px;
+
+    color: var(--muted);
+
+    font-size: 14px;
+}
+
+
+/* =================================
+   GMAIL MAİL LİSTESİ
+================================= */
+
+.gmail-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+    margin-top: 18px;
+}
+
+.gmail-card {
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 18px;
+
+    border: 1px solid var(--border);
+
+    border-radius: 14px;
+
+    background: #fafbfc;
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease,
+        opacity 0.25s ease;
+}
+
+.gmail-card:hover {
+    transform: translateY(-2px);
+
+    border-color: #d6d9e2;
+
+    box-shadow:
+        0 8px 20px
+        rgba(31, 41, 55, 0.07);
+}
+
+.gmail-card.removing {
+    opacity: 0;
+
+    transform: translateX(25px);
+}
+
+.gmail-card-info {
+    min-width: 0;
+
+    flex: 1;
+}
+
+.gmail-card-sender {
+    font-size: 14px;
+
+    color: var(--muted);
+
+    margin-bottom: 6px;
+}
+
+.gmail-card-subject {
+    font-size: 16px;
+
+    font-weight: bold;
+
+    margin-bottom: 6px;
+
+    overflow-wrap: anywhere;
+}
+
+.gmail-card-date {
+    font-size: 12px;
+
+    color: #9ca3af;
+}
+
+
+/* =================================
+   YENİ GMAIL MAİL KARTLARI
+================================= */
+
+.gmail-mail-card {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    width: 100%;
+
+    padding: 18px 20px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e6ee;
+
+    border-radius: 14px;
+
+    box-shadow:
+        0 3px 10px
+        rgba(31, 41, 55, 0.06);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        border-color 0.2s ease;
+}
+
+.gmail-mail-card:hover {
+    transform: translateY(-2px);
+
+    border-color: #198754;
+
+    box-shadow:
+        0 7px 18px
+        rgba(31, 41, 55, 0.10);
+}
+
+.gmail-mail-info {
+    flex: 1;
+
+    min-width: 0;
+}
+
+.gmail-mail-sender {
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: #1f2937;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.gmail-mail-subject {
+    margin-top: 6px;
+
+    font-size: 14px;
+
+    font-weight: 500;
+
+    color: #374151;
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+}
+
+.gmail-mail-date {
+    margin-top: 6px;
+
+    font-size: 12px;
+
+    color: #6b7280;
+}
+
+
+/* Mail analiz butonu */
+
+.gmail-analyze-button {
+    flex-shrink: 0;
+
+    padding: 11px 17px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #5b4bdb;
+
+    color: white;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.gmail-analyze-button:hover {
+    background: #4939c5;
+
+    transform: translateY(-1px);
+
+    box-shadow:
+        0 4px 10px
+        rgba(91, 75, 219, 0.25);
+}
+
+.gmail-analyze-button:disabled {
+    opacity: 0.65;
+
+    cursor: not-allowed;
+
+    transform: none;
+
+    box-shadow: none;
+}
+
+
+/* Mail analiz edildikten sonra kartın kaybolması */
+
+.gmail-mail-card.removing {
+    opacity: 0;
+
+    transform: translateX(20px);
+
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease;
+}
+
+
+/* Mail yoksa */
+
+.empty-mail {
+    padding: 24px;
+
+    text-align: center;
+
+    color: #6b7280;
+
+    background: #ffffff;
+
+    border: 1px dashed #d1d5db;
+
+    border-radius: 14px;
+}
+
+
+/* =================================
+   MAIL İÇERİĞİ
+================================= */
+
+.gmail-body {
+    margin-top: 20px;
+}
+
+.gmail-body-box {
+    border:
+        1px solid var(--border);
+
+    border-radius: 14px;
+
+    overflow: hidden;
+
+    background: #f9fafb;
+}
+
+.mail-content-header {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+
+    padding: 14px 18px;
+
+    background: #f1effd;
+
+    color: #4b3fb4;
+
+    font-size: 15px;
+
+    font-weight: bold;
+
+    border-bottom:
+        1px solid #e3defa;
+}
+
+.mail-content {
+    margin: 0;
+
+    padding: 18px;
+
+    max-height: 420px;
+
+    overflow-y: auto;
+
+    white-space: pre-wrap;
+
+    overflow-wrap: anywhere;
+
+    word-break: break-word;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size: 14px;
+
+    line-height: 1.65;
+
+    color: #374151;
+}
+
+.gmail-body-box pre {
+    margin: 0;
+
+    padding: 18px;
+
+    max-height: 420px;
+
+    overflow-y: auto;
+
+    white-space: pre-wrap;
+
+    overflow-wrap: anywhere;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    font-size: 14px;
+
+    line-height: 1.65;
+
+    color: #374151;
+}
+
+
+/* =================================
+   ANALİZ SONUCU
+================================= */
+
 .result-card {
-    margin-top: 30px;
-    padding: 25px;
-    border-radius: 12px;
-    background-color: #f8fafc;
-    border: 1px solid #e5e7eb;
+    display: block;
+
+    border-top:
+        4px solid var(--primary);
+
     text-align: left;
 }
 
-.result-card h2 {
-    text-align: center;
-    margin-bottom: 25px;
+.result-heading {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    margin-bottom: 28px;
 }
+
+.result-heading h2 {
+    font-size: 23px;
+}
+
+.result-icon {
+    font-size: 22px;
+}
+
+
+/* =================================
+   RİSK SKORU
+================================= */
 
 .risk-score {
     display: flex;
+
     justify-content: space-between;
+
     align-items: center;
-    margin-bottom: 20px;
-    font-size: 17px;
+
+    padding: 18px;
+
+    border-radius: 12px;
+
+    background: #f7f7fb;
+
+    margin-bottom: 15px;
+
+    font-size: 16px;
 }
 
 .risk-score strong {
-    font-size: 24px;
+    font-size: 28px;
+
+    color: var(--primary);
 }
+
+
+/* =================================
+   RİSK DURUMU
+================================= */
 
 .risk-status {
     text-align: center;
-    padding: 12px;
-    border-radius: 8px;
-    background-color: #fef3c7;
+
+    padding: 13px;
+
+    border-radius: 10px;
+
+    background: #fff6df;
+
+    color: #9a6500;
+
     font-weight: bold;
+
+    margin-bottom: 22px;
+}
+
+
+/* =================================
+   RİSK FAKTÖRLERİ
+================================= */
+
+.risk-factors {
+    padding: 18px;
+
+    border-radius: 12px;
+
+    background: #fafafa;
+
     margin-bottom: 20px;
 }
 
 .risk-factors h3 {
-    margin-bottom: 10px;
+    font-size: 17px;
+
+    margin-bottom: 12px;
 }
 
 .risk-factors ul {
@@ -114,5 +1055,435 @@ button:hover {
 }
 
 .risk-factors li {
-    margin-bottom: 8px;
+    margin-bottom: 7px;
+
+    line-height: 1.5;
+}
+
+
+/* =================================
+   LLM
+================================= */
+
+.llm-result {
+    padding: 20px;
+
+    border-radius: 14px;
+
+    background: #f5f3ff;
+
+    border: 1px solid #e5e0ff;
+}
+
+.llm-result h3 {
+    margin-bottom: 15px;
+
+    color: #4b3fb4;
+}
+
+.llm-result p {
+    margin-bottom: 10px;
+
+    line-height: 1.5;
+}
+
+.llm-result ul {
+    padding-left: 20px;
+
+    margin-top: 8px;
+}
+
+.llm-result li {
+    margin-bottom: 6px;
+}
+
+.llm-spam {
+    color: #dc3545;
+
+    font-weight: bold;
+}
+
+.llm-ham {
+    color: #198754;
+
+    font-weight: bold;
+}
+
+
+/* =================================
+   ANALİZ GEÇMİŞİ
+================================= */
+
+.analysis-history-section {
+    width: 100%;
+
+    max-width: 900px;
+
+    margin: 35px auto 50px auto;
+
+    padding: 28px;
+
+    box-sizing: border-box;
+
+    background:
+        rgba(255, 255, 255, 0.96);
+
+    border-radius: 20px;
+
+    border:
+        1px solid rgba(0, 0, 0, 0.08);
+
+    box-shadow:
+        0 10px 30px
+        rgba(0, 0, 0, 0.08);
+}
+
+
+/* Geçmiş başlığı */
+
+.history-header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    margin-bottom: 24px;
+}
+
+.history-header h2 {
+    margin: 0 0 6px 0;
+
+    font-size: 22px;
+}
+
+.history-header p {
+    margin: 0;
+
+    font-size: 14px;
+
+    opacity: 0.7;
+}
+
+
+/* Geçmişi temizle */
+
+.clear-history-button {
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 10px 16px;
+
+    background: #f1f1f1;
+
+    color: #333;
+
+    font-size: 13px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        background 0.2s ease;
+}
+
+.clear-history-button:hover {
+    background: #e5e5e5;
+
+    transform: translateY(-1px);
+}
+
+
+/* Geçmiş listesi */
+
+.analysis-history-list {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+
+/* Geçmiş kartı */
+
+.history-card {
+    padding: 18px 20px;
+
+    border-radius: 15px;
+
+    background: #fafafa;
+
+    border:
+        1px solid rgba(0, 0, 0, 0.07);
+
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.history-card:hover {
+    transform: translateY(-2px);
+
+    box-shadow:
+        0 6px 18px
+        rgba(0, 0, 0, 0.07);
+}
+
+
+/* Kart üst kısmı */
+
+.history-card-top {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 12px;
+}
+
+.history-type {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 15px;
+}
+
+.history-icon {
+    font-size: 20px;
+}
+
+.history-date {
+    font-size: 12px;
+
+    opacity: 0.55;
+}
+
+
+/* Geçmiş içeriği */
+
+.history-content {
+    padding: 12px 14px;
+
+    border-radius: 10px;
+
+    background: white;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+
+    word-break: break-word;
+
+    overflow-wrap: anywhere;
+
+    margin-bottom: 14px;
+}
+
+
+/* Kart alt kısmı */
+
+.history-card-bottom {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+.history-result {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 13px;
+}
+
+.history-result span {
+    opacity: 0.65;
+}
+
+.history-result strong {
+    font-size: 16px;
+}
+
+
+/* Risk renkleri */
+
+.history-result strong.low-risk {
+    color: #238636;
+}
+
+.history-result strong.medium-risk {
+    color: #b7791f;
+}
+
+.history-result strong.high-risk {
+    color: #d93025;
+}
+
+.history-status {
+    font-size: 13px;
+
+    font-weight: 600;
+
+    opacity: 0.75;
+}
+
+
+/* Boş geçmiş */
+
+.empty-history {
+    text-align: center;
+
+    padding: 35px 20px;
+
+    border-radius: 14px;
+
+    background: #fafafa;
+
+    border:
+        1px dashed
+        rgba(0, 0, 0, 0.15);
+}
+
+.empty-history-icon {
+    font-size: 34px;
+
+    margin-bottom: 10px;
+}
+
+.empty-history p {
+    margin: 0 0 5px 0;
+
+    font-weight: 600;
+}
+
+.empty-history span {
+    font-size: 13px;
+
+    opacity: 0.6;
+}
+
+
+/* =================================
+   RESPONSIVE
+================================= */
+
+@media (max-width: 700px) {
+
+    .landing-page {
+        padding: 20px;
+    }
+
+    .landing-card {
+        padding: 40px 25px;
+    }
+
+    .landing-card h1 {
+        font-size: 27px;
+    }
+
+    .app-page {
+        padding:
+            25px
+            15px
+            40px;
+    }
+
+    .app-header {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .analyzer-card,
+    .gmail-section,
+    .result-card {
+        padding: 22px;
+    }
+
+    .gmail-header-actions {
+        width: 100%;
+    }
+
+    .gmail-connect-button {
+        width: 100%;
+    }
+
+    .gmail-mail-card {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .gmail-analyze-button {
+        width: 100%;
+    }
+
+    .gmail-toggle-button {
+        width: 100%;
+    }
+
+    .section-heading {
+        align-items: flex-start;
+    }
+
+    .risk-score {
+        gap: 15px;
+    }
+
+    .risk-score strong {
+        font-size: 24px;
+    }
+
+    .analysis-history-section {
+        margin:
+            25px
+            12px
+            40px
+            12px;
+
+        padding: 20px;
+
+        width:
+            calc(100% - 24px);
+    }
+
+    .history-header {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .clear-history-button {
+        width: 100%;
+    }
+
+    .history-card-top {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
+
+    .history-card-bottom {
+        align-items: flex-start;
+
+        flex-direction: column;
+    }
 }

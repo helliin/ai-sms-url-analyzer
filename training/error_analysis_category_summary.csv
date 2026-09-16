@@ -1,0 +1,11 @@
+category,message_count,svm_errors,distilbert_errors,svm_error_rate,distilbert_error_rate
+has_url,18,0,1,0.0,0.0556
+has_phone_or_shortcode,129,10,21,0.0775,0.1628
+has_money,44,3,8,0.0682,0.1818
+has_promotion,65,9,6,0.1385,0.0923
+has_urgency,59,7,5,0.1186,0.0847
+has_financial,68,6,10,0.0882,0.1471
+has_subscription,37,5,7,0.1351,0.1892
+has_reward,19,4,3,0.2105,0.1579
+has_question,39,3,2,0.0769,0.0513
+has_exclamation,96,12,10,0.125,0.1042

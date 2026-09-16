@@ -1,0 +1,5 @@
+length_category,message_count,svm_errors,distilbert_errors,svm_error_rate,distilbert_error_rate
+Very Short,191,25,31,0.1309,0.1623
+Short,205,26,19,0.1268,0.0927
+Medium,267,29,25,0.1086,0.0936
+Long,19,3,1,0.1579,0.0526
