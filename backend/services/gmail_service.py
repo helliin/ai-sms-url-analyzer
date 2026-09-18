@@ -1,5 +1,6 @@
 import os
 import base64
+from bs4 import BeautifulSoup
 
 from backend.ai.analyzer import analyze_sms
 
@@ -103,44 +104,60 @@ def decode_body(data):
 
 
 def get_email_body(payload):
-    """Mailin içindeki text/plain veya alt parçaları bulur."""
+    """Mail gövdesinden okunabilir metin çıkarır."""
 
-    # Direkt gövde varsa
-    body = payload.get(
-        "body",
-        {}
-    )
+    parts = payload.get("parts", [])
 
-    if body.get("data"):
-        return decode_body(
-            body["data"]
-        )
-
-    # Mail parçalıysa
-    parts = payload.get(
-        "parts",
-        []
-    )
-
-    # Önce text/plain arıyoruz
+    # 1. Önce text/plain ara
     for part in parts:
 
-        mime_type = part.get(
-            "mimeType",
-            ""
-        )
+        mime_type = part.get("mimeType", "")
 
         if mime_type == "text/plain":
 
-            data = part.get(
-                "body",
-                {}
-            ).get("data")
+            data = part.get("body", {}).get("data")
 
             if data:
                 return decode_body(data)
 
-    # text/plain yoksa alt parçaların içine bak
+    # 2. text/plain yoksa text/html ara
+    for part in parts:
+
+        mime_type = part.get("mimeType", "")
+
+        if mime_type == "text/html":
+
+            data = part.get("body", {}).get("data")
+
+            if data:
+
+                html = decode_body(data)
+
+                soup = BeautifulSoup(
+                    html,
+                    "html.parser"
+                )
+
+                # Gereksiz HTML bölümlerini kaldır
+                for tag in soup([
+                    "style",
+                    "script",
+                    "head",
+                    "title",
+                    "meta",
+                    "link"
+                ]):
+                    tag.decompose()
+
+                # Linklerin sadece görünen yazısını bırak.
+                # Uzun URL'leri kullanıcıya göstermiyoruz.
+
+                return soup.get_text(
+                    "\n",
+                    strip=True
+                )
+
+    # 3. İç içe MIME parçalarını kontrol et
     for part in parts:
 
         if part.get("parts"):
@@ -150,9 +167,44 @@ def get_email_body(payload):
             if result:
                 return result
 
+    # 4. Direkt body.data kontrol et
+    body = payload.get("body", {})
+
+    if body.get("data"):
+
+        data = decode_body(
+            body["data"]
+        )
+
+        # Eğer HTML ise temizle
+        if "<html" in data.lower() or "<!doctype" in data.lower():
+
+            soup = BeautifulSoup(
+                data,
+                "html.parser"
+            )
+
+            for tag in soup([
+                "style",
+                "script",
+                "head",
+                "title",
+                "meta",
+                "link"
+            ]):
+                tag.decompose()
+
+            # Linklerin sadece görünen yazısını bırak.
+            # Uzun URL'leri kullanıcıya göstermiyoruz.
+
+            return soup.get_text(
+                "\n",
+                strip=True
+            )
+
+        return data
+
     return ""
-
-
 def get_email(
     message_id,
     gmail_address=None
